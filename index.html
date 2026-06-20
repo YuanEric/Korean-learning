@@ -92,7 +92,24 @@
   </div>
 </div>
 
-<script src="lessons.js"></script>
+<script>
+  // Load lesson data fresh every visit (cache-busted) so daily updates show
+  // immediately and a stale CDN copy can never blank the page.
+  (function(){
+    var s = document.createElement('script');
+    s.src = 'lessons.js?t=' + Date.now();
+    s.onload = function(){
+      try { init(); }
+      catch(e){ document.getElementById('lessonArea').innerHTML =
+        '<div class="card">Something went wrong rendering the lesson: ' + e.message + '</div>'; }
+    };
+    s.onerror = function(){
+      document.getElementById('lessonArea').innerHTML =
+        '<div class="card">Could not load lessons.js. Try a hard refresh.</div>';
+    };
+    document.head.appendChild(s);
+  })();
+</script>
 <script>
   // progress persisted in the browser so checkmarks stick across visits
   let progress = {};
@@ -101,7 +118,7 @@
 
   const lessonArea = document.getElementById('lessonArea');
   const dayList = document.getElementById('dayList');
-  let current = LESSONS[LESSONS.length - 1].day; // open newest by default
+  let current; // set in init() once lessons.js has loaded
 
   function renderRoadmap(){
     const rm = document.getElementById('roadmap');
@@ -140,7 +157,6 @@
       <h2 style="margin-top:10px">Day ${l.day}: ${l.title}</h2>
       <p class="muted">${l.focus}</p>`;
 
-    // Hangul
     if(l.hangul){
       html += `<h3>1 · Hangul & Reading</h3><p>${l.hangul.intro}</p>
         <div class="hangul-grid">` +
@@ -152,20 +168,17 @@
       }
     }
 
-    // Grammar
     if(l.grammar){
       html += `<h3>2 · Grammar — ${l.grammar.point}</h3><p>${l.grammar.explanation}</p>` +
         l.grammar.examples.map(e=>`<div class="ex"><div class="ko">${e.ko}</div><div class="en">${e.en}</div></div>`).join('');
     }
 
-    // Vocab
     if(l.vocab){
       html += `<h3>3 · Vocabulary</h3><table class="vocab">` +
         l.vocab.map(v=>`<tr><td class="ko">${v.ko}</td><td>${v.en}</td><td class="nt">${v.note||''}</td></tr>`).join('') +
         `</table>`;
     }
 
-    // Exercises
     if(l.exercises){
       html += `<h3>4 · Practice</h3>` +
         l.exercises.map((e,i)=>`<details><summary>${i+1}. ${e.q}</summary><div class="ans">→ ${e.a}</div></details>`).join('');
@@ -173,7 +186,6 @@
 
     html += `</div>`;
 
-    // Quiz
     if(l.quiz){
       html += `<div class="card"><h3 style="margin-top:0">5 · Quiz</h3><div id="quiz"></div>
         <div class="topbtns"><button class="btn" onclick="gradeQuiz()">Check answers</button>
@@ -213,4 +225,14 @@
       if(quizState[qi]===q.answer) correct++;
     });
     const total=l.quiz.length;
-    document.getElementById('scoreLine').textContent = `Score: ${correct}/${total}` + (correct===total?'  🎉 Perfect — l
+    document.getElementById('scoreLine').textContent = `Score: ${correct}/${total}` + (correct===total?'  🎉 Perfect — lesson complete!':'');
+    if(correct===total){ progress[current]=true; saveProgress(); renderDayList(); renderRoadmap(); }
+  }
+
+  function init(){
+    current = LESSONS[LESSONS.length - 1].day;
+    renderRoadmap(); renderDayList(); renderLesson();
+  }
+</script>
+</body>
+</html>
