@@ -121,4 +121,62 @@ const LESSONS = [
       { q: "Which is the standard polite 'hello'?", options: ["감사합니다", "안녕히 가세요", "안녕하세요", "아니요"], answer: 2, explain: "안녕하세요 is the everyday polite greeting." }
     ]
   },
-  
+  {
+    day: 2,
+    phase: 1,
+    title: "More Consonants & “X is Y”",
+    focus: "Read 6 new consonants and say what something is with 이에요/예요.",
+    hangul: {
+      intro: "Today adds six common consonants. Combine them with the vowels from Day 1 to read new syllables. Remember the block pattern: consonant + vowel, with the vowel placed to the right (for ㅏㅓㅣ) or underneath (for ㅗㅜㅡ).",
+      items: [
+        { char: "ㄷ", sound: "d / t", note: "like ㄴ with an extra top stroke" },
+        { char: "ㄹ", sound: "r / l", note: "a flap between R and L" },
+        { char: "ㅂ", sound: "b / p", note: "shaped like a cup" },
+        { char: "ㅅ", sound: "s (sh before i)", note: "like a tent" },
+        { char: "ㅈ", sound: "j", note: "ㅅ with a top line" },
+        { char: "ㅎ", sound: "h", note: "a hat over a circle" }
+      ],
+      reading: [
+        { block: "다", breakdown: "ㄷ (d) + ㅏ (a) = da" },
+        { block: "라", breakdown: "ㄹ (r) + ㅏ (a) = ra" },
+        { block: "보", breakdown: "ㅂ (b) + ㅗ (o) = bo" },
+        { block: "시", breakdown: "ㅅ (sh) + ㅣ (i) = shi" },
+        { block: "주", breakdown: "ㅈ (j) + ㅜ (u) = ju" },
+        { block: "하", breakdown: "ㅎ (h) + ㅏ (a) = ha" }
+      ]
+    },
+    grammar: {
+      point: "Noun + 이에요/예요 (to be: “is/am/are”)",
+      explanation: "To say “(something) is (a noun)”, attach 이에요/예요 to the noun. Use 이에요 when the noun ends in a consonant, and 예요 when it ends in a vowel. This is the polite everyday form. Korean usually drops the subject when it’s obvious, so 학생이에요 alone can mean “(I/he/she) is a student.”",
+      examples: [
+        { ko: "학생이에요.", en: "(I) am a student. (학생 ends in consonant ㅇ→ㅇ sound, takes 이에요)" },
+        { ko: "의자예요.", en: "It’s a chair. (의자 ends in a vowel, takes 예요)" },
+        { ko: "한국 사람이에요.", en: "(I) am Korean. / a Korean person." },
+        { ko: "사과예요.", en: "It’s an apple." }
+      ]
+    },
+    vocab: [
+      { ko: "학생", en: "student", note: "hak-saeng" },
+      { ko: "사람", en: "person", note: "sa-ram" },
+      { ko: "한국", en: "Korea", note: "han-guk" },
+      { ko: "책", en: "book", note: "chaek" },
+      { ko: "의자", en: "chair", note: "ui-ja" },
+      { ko: "사과", en: "apple", note: "sa-gwa" },
+      { ko: "친구", en: "friend", note: "chin-gu" }
+    ],
+    exercises: [
+      { q: "Read aloud and romanize: 다리", a: "dari (da + ri) — means “bridge/leg”" },
+      { q: "Read aloud and romanize: 하루", a: "haru (ha + ru) — means “one day”" },
+      { q: "Choose the ending: 친구___ (friend, ends in vowel)", a: "친구예요 (예요 after a vowel)" },
+      { q: "Choose the ending: 책___ (book, ends in consonant)", a: "책이에요 (이에요 after a consonant)" },
+      { q: "Say “It’s an apple.”", a: "사과예요." }
+    ],
+    quiz: [
+      { q: "How do you read 보?", options: ["ba", "bo", "po", "mo"], answer: 1, explain: "ㅂ (b) + ㅗ (o) = bo." },
+      { q: "Which ending attaches to a noun ending in a VOWEL?", options: ["이에요", "예요", "합니다", "하세요"], answer: 1, explain: "예요 follows a vowel; 이에요 follows a consonant." },
+      { q: "Pick the correct sentence for “It’s a chair.” (의자 ends in a vowel)", options: ["의자이에요", "의자예요", "의자입니까", "의자아니요"], answer: 1, explain: "의자 ends in the vowel ㅏ, so it takes 예요." },
+      { q: "Which consonant makes an r/l sound?", options: ["ㄷ", "ㄹ", "ㅂ", "ㅎ"], answer: 1, explain: "ㄹ is the r/l flap." },
+      { q: "What does 학생이에요 mean?", options: ["It’s a book.", "(I) am a student.", "(I) am a friend.", "It’s Korea."], answer: 1, explain: "학생 = student; 이에요 = is/am. Subject is dropped." }
+    ]
+  }
+];
