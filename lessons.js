@@ -178,5 +178,205 @@ const LESSONS = [
       { q: "Which consonant makes an r/l sound?", options: ["ㄷ", "ㄹ", "ㅂ", "ㅎ"], answer: 1, explain: "ㄹ is the r/l flap." },
       { q: "What does 학생이에요 mean?", options: ["It’s a book.", "(I) am a student.", "(I) am a friend.", "It’s Korea."], answer: 1, explain: "학생 = student; 이에요 = is/am. Subject is dropped." }
     ]
+  },
+{
+ "day": 3,
+ "phase": 1,
+ "title": "Aspirated Consonants & “X is NOT Y”",
+ "focus": "Read the four aspirated consonants and negate with 이/가 아니에요.",
+ "hangul": {
+  "intro": "Korean has plain consonants (Day 2) and their ASPIRATED partners, pronounced with a strong puff of air. Each aspirated letter looks like its plain partner plus an extra stroke. Combine them with the vowels you know to read new blocks.",
+  "items": [
+   {
+    "char": "ㅊ",
+    "sound": "ch",
+    "note": "aspirated partner of ㅈ (j); a strong 'ch' with air"
+   },
+   {
+    "char": "ㅋ",
+    "sound": "k",
+    "note": "aspirated partner of ㄱ (g); strong 'k' with air"
+   },
+   {
+    "char": "ㅌ",
+    "sound": "t",
+    "note": "aspirated partner of ㄷ (d); strong 't' with air"
+   },
+   {
+    "char": "ㅍ",
+    "sound": "p",
+    "note": "aspirated partner of ㅂ (b); strong 'p' with air"
+   }
+  ],
+  "reading": [
+   {
+    "block": "차",
+    "breakdown": "ㅊ (ch) + ㅏ (a) = cha"
+   },
+   {
+    "block": "커",
+    "breakdown": "ㅋ (k) + ㅓ (eo) = keo"
+   },
+   {
+    "block": "타",
+    "breakdown": "ㅌ (t) + ㅏ (a) = ta"
+   },
+   {
+    "block": "포",
+    "breakdown": "ㅍ (p) + ㅗ (o) = po"
+   },
+   {
+    "block": "카",
+    "breakdown": "ㅋ (k) + ㅏ (a) = ka"
+   },
+   {
+    "block": "치",
+    "breakdown": "ㅊ (ch) + ㅣ (i) = chi"
+   }
+  ]
+ },
+ "grammar": {
+  "point": "Noun + 이/가 아니에요 (to NOT be: “is not”)",
+  "explanation": "This is the negative of 이에요/예요 from Day 2. Attach the subject particle 이/가 to the noun (이 after a consonant, 가 after a vowel), then add 아니에요. So “(it) is not a student” = 학생이 아니에요, and “(it) is not a chair” = 의자가 아니에요.",
+  "examples": [
+   {
+    "ko": "학생이 아니에요.",
+    "en": "(I/he/she) is not a student. (학생 ends in a consonant → 이)"
+   },
+   {
+    "ko": "의자가 아니에요.",
+    "en": "It is not a chair. (의자 ends in a vowel → 가)"
+   },
+   {
+    "ko": "한국 사람이 아니에요.",
+    "en": "(I) am not Korean."
+   },
+   {
+    "ko": "친구가 아니에요.",
+    "en": "(He/she) is not a friend."
+   }
+  ]
+ },
+ "vocab": [
+  {
+   "ko": "차",
+   "en": "car / tea",
+   "note": "cha"
+  },
+  {
+   "ko": "커피",
+   "en": "coffee",
+   "note": "keo-pi"
+  },
+  {
+   "ko": "카메라",
+   "en": "camera",
+   "note": "ka-me-ra"
+  },
+  {
+   "ko": "택시",
+   "en": "taxi",
+   "note": "taek-si"
+  },
+  {
+   "ko": "치마",
+   "en": "skirt",
+   "note": "chi-ma"
+  },
+  {
+   "ko": "포도",
+   "en": "grape",
+   "note": "po-do"
+  },
+  {
+   "ko": "컴퓨터",
+   "en": "computer",
+   "note": "keom-pyu-teo"
+  },
+  {
+   "ko": "책상",
+   "en": "desk",
+   "note": "chaek-sang"
   }
+ ],
+ "exercises": [
+  {
+   "q": "Read aloud and romanize: 커피",
+   "a": "keo-pi (커 + 피) — means “coffee”"
+  },
+  {
+   "q": "Read aloud and romanize: 포도",
+   "a": "po-do (포 + 도) — means “grape”"
+  },
+  {
+   "q": "Choose the particle: 친구___ 아니에요 (friend, ends in a vowel)",
+   "a": "친구가 아니에요 (가 after a vowel)"
+  },
+  {
+   "q": "Choose the particle: 학생___ 아니에요 (student, ends in a consonant)",
+   "a": "학생이 아니에요 (이 after a consonant)"
+  },
+  {
+   "q": "Say “It is not an apple.” (사과 ends in a vowel)",
+   "a": "사과가 아니에요."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "How do you read 타?",
+   "options": [
+    "da",
+    "ta",
+    "na",
+    "ka"
+   ],
+   "answer": 1,
+   "explain": "ㅌ (t) + ㅏ (a) = ta."
+  },
+  {
+   "q": "ㅋ is the aspirated partner of which plain consonant?",
+   "options": [
+    "ㄱ (g)",
+    "ㄷ (d)",
+    "ㅂ (b)",
+    "ㅈ (j)"
+   ],
+   "answer": 0,
+   "explain": "ㅋ (k) is the aspirated version of ㄱ (g)."
+  },
+  {
+   "q": "Which particle attaches to a noun ending in a CONSONANT before 아니에요?",
+   "options": [
+    "가",
+    "이",
+    "예",
+    "는"
+   ],
+   "answer": 1,
+   "explain": "이 follows a consonant; 가 follows a vowel."
+  },
+  {
+   "q": "Pick the correct sentence for “It is not a chair.” (의자 ends in a vowel)",
+   "options": [
+    "의자이 아니에요",
+    "의자가 아니에요",
+    "의자예요",
+    "의자이에요"
+   ],
+   "answer": 1,
+   "explain": "의자 ends in a vowel, so it takes 가 + 아니에요."
+  },
+  {
+   "q": "What does 학생이 아니에요 mean?",
+   "options": [
+    "(I) am a student.",
+    "(I) am not a student.",
+    "(I) am a friend.",
+    "It is a chair."
+   ],
+   "answer": 1,
+   "explain": "이 아니에요 negates the noun: “is not a student.”"
+  }
+ ]
+}
 ];
