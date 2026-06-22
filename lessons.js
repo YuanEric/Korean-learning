@@ -378,5 +378,219 @@ const LESSONS = [
    "explain": "이 아니에요 negates the noun: “is not a student.”"
   }
  ]
-}
+},
+  {
+    "day": 4,
+    "phase": 1,
+    "title": "Tense (Double) Consonants & 있어요/없어요",
+    "focus": "Read the five tense consonants and say what there is / isn't with 있어요/없어요.",
+    "hangul": {
+      "intro": "Beyond plain (Day 2) and aspirated (Day 3) consonants, Korean has TENSE (double) consonants. They are written by doubling the plain letter and pronounced tightly and sharply, with a tense throat and NO puff of air. Combine them with your vowels to read new blocks.",
+      "items": [
+        {
+          "char": "ㄲ",
+          "sound": "kk",
+          "note": "tense version of ㄱ; sharp 'g/k' with a tight throat, no air"
+        },
+        {
+          "char": "ㄸ",
+          "sound": "tt",
+          "note": "tense version of ㄷ; sharp 'd/t', tight, no air"
+        },
+        {
+          "char": "ㅃ",
+          "sound": "pp",
+          "note": "tense version of ㅂ; sharp 'b/p', tight, no air"
+        },
+        {
+          "char": "ㅆ",
+          "sound": "ss",
+          "note": "tense version of ㅅ; strong, hissing 's'"
+        },
+        {
+          "char": "ㅉ",
+          "sound": "jj",
+          "note": "tense version of ㅈ; sharp 'j', tight, no air"
+        }
+      ],
+      "reading": [
+        {
+          "block": "까",
+          "breakdown": "ㄲ (kk) + ㅏ (a) = kka"
+        },
+        {
+          "block": "떠",
+          "breakdown": "ㄸ (tt) + ㅓ (eo) = tteo"
+        },
+        {
+          "block": "빠",
+          "breakdown": "ㅃ (pp) + ㅏ (a) = ppa"
+        },
+        {
+          "block": "써",
+          "breakdown": "ㅆ (ss) + ㅓ (eo) = sseo"
+        },
+        {
+          "block": "짜",
+          "breakdown": "ㅉ (jj) + ㅏ (a) = jja"
+        },
+        {
+          "block": "꼬",
+          "breakdown": "ㄲ (kk) + ㅗ (o) = kko"
+        }
+      ]
+    },
+    "grammar": {
+      "point": "있어요 / 없어요 (there is / have  vs.  there isn't / don't have)",
+      "explanation": "있어요 means “there is / exists” or “(I) have.” Its opposite 없어요 means “there isn't / doesn't exist” or “(I) don't have.” The thing you are talking about usually takes the subject particle 이/가 (이 after a consonant, 가 after a vowel). Example: 시간이 있어요 = “(I) have time”; 시간이 없어요 = “(I) don't have time.”",
+      "examples": [
+        {
+          "ko": "시간이 있어요.",
+          "en": "(I) have time. / There is time."
+        },
+        {
+          "ko": "시간이 없어요.",
+          "en": "(I) don't have time. / There is no time."
+        },
+        {
+          "ko": "친구가 있어요.",
+          "en": "(I) have a friend. (친구 ends in a vowel → 가)"
+        },
+        {
+          "ko": "돈이 없어요.",
+          "en": "(I) don't have money. (돈 ends in a consonant → 이)"
+        }
+      ]
+    },
+    "vocab": [
+      {
+        "ko": "오빠",
+        "en": "older brother (for a female speaker)",
+        "note": "o-ppa"
+      },
+      {
+        "ko": "아빠",
+        "en": "dad",
+        "note": "a-ppa"
+      },
+      {
+        "ko": "꽃",
+        "en": "flower",
+        "note": "kkot"
+      },
+      {
+        "ko": "빵",
+        "en": "bread",
+        "note": "ppang"
+      },
+      {
+        "ko": "짜다",
+        "en": "to be salty",
+        "note": "jja-da"
+      },
+      {
+        "ko": "시간",
+        "en": "time",
+        "note": "si-gan"
+      },
+      {
+        "ko": "돈",
+        "en": "money",
+        "note": "don"
+      },
+      {
+        "ko": "있어요",
+        "en": "there is / (I) have",
+        "note": "i-sseo-yo"
+      },
+      {
+        "ko": "없어요",
+        "en": "there isn't / (I) don't have",
+        "note": "eop-seo-yo"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Read aloud and romanize: 빠",
+        "a": "ppa (ㅃ + ㅏ) — sharp, tense 'p', no air"
+      },
+      {
+        "q": "Read aloud and romanize: 꼬",
+        "a": "kko (ㄲ + ㅗ)"
+      },
+      {
+        "q": "Choose the particle: 친구___ 있어요 (friend, ends in a vowel)",
+        "a": "친구가 있어요 (가 after a vowel)"
+      },
+      {
+        "q": "Choose the particle: 돈___ 없어요 (money, ends in a consonant)",
+        "a": "돈이 없어요 (이 after a consonant)"
+      },
+      {
+        "q": "Say “(I) have time.” (시간 ends in a consonant)",
+        "a": "시간이 있어요."
+      },
+      {
+        "q": "Say “There is no bread.” (빵 ends in a consonant)",
+        "a": "빵이 없어요."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How do you read 까?",
+        "options": [
+          "ka",
+          "ga",
+          "kka",
+          "cha"
+        ],
+        "answer": 2,
+        "explain": "ㄲ (kk) + ㅏ (a) = kka — tense, no puff of air."
+      },
+      {
+        "q": "ㅆ is the tense version of which plain consonant?",
+        "options": [
+          "ㅅ (s)",
+          "ㅈ (j)",
+          "ㄷ (d)",
+          "ㅂ (b)"
+        ],
+        "answer": 0,
+        "explain": "ㅆ (ss) is the tense/double form of ㅅ (s)."
+      },
+      {
+        "q": "Which word means “(I) don't have / there isn't”?",
+        "options": [
+          "있어요",
+          "없어요",
+          "아니에요",
+          "이에요"
+        ],
+        "answer": 1,
+        "explain": "없어요 = there isn't / don't have; 있어요 = there is / have."
+      },
+      {
+        "q": "Pick the correct sentence for “(I) have a friend.” (친구 ends in a vowel)",
+        "options": [
+          "친구이 있어요",
+          "친구가 있어요",
+          "친구가 없어요",
+          "친구예요"
+        ],
+        "answer": 1,
+        "explain": "친구 ends in a vowel → 가, and 있어요 = have."
+      },
+      {
+        "q": "What does 돈이 없어요 mean?",
+        "options": [
+          "(I) have money.",
+          "(I) don't have money.",
+          "It is money.",
+          "Money is salty."
+        ],
+        "answer": 1,
+        "explain": "없어요 negates existence/possession: “(I) don't have money.”"
+      }
+    ]
+  }
 ];
