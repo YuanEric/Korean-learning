@@ -593,4 +593,215 @@ const LESSONS = [
       }
     ]
   }
+,
+{
+  "day": 5,
+  "phase": 1,
+  "title": "Y-Vowels (ㅑㅕㅛㅠ), ㅐ/ㅔ & the Topic Particle 은/는",
+  "focus": "Read the iotized 'y' vowels and ㅐ/ㅔ, and introduce a topic with 은/는.",
+  "hangul": {
+    "intro": "You already know the 6 basic vowels. Now meet the 'y' (iotized) vowels: take a basic vowel and add a second short stroke to glide a 'y' sound in front of it. You will also learn ㅐ and ㅔ, two vowels that both sound like the 'e' in 'bed' (in modern speech they are nearly identical). Combine all of these with consonants to read new blocks.",
+    "items": [
+      {
+        "char": "ㅑ",
+        "sound": "ya",
+        "note": "ㅏ with an extra stroke; 'ya' as in 'yard'"
+      },
+      {
+        "char": "ㅕ",
+        "sound": "yeo",
+        "note": "ㅓ with an extra stroke; 'yuh', like 'young'"
+      },
+      {
+        "char": "ㅛ",
+        "sound": "yo",
+        "note": "ㅗ with an extra stroke; 'yo' as in 'yoga'"
+      },
+      {
+        "char": "ㅠ",
+        "sound": "yu",
+        "note": "ㅜ with an extra stroke; 'yu' as in 'you'"
+      },
+      {
+        "char": "ㅐ",
+        "sound": "ae",
+        "note": "ㅏ + ㅣ; 'e' as in 'bed'"
+      },
+      {
+        "char": "ㅔ",
+        "sound": "e",
+        "note": "ㅓ + ㅣ; 'e' as in 'bed' (nearly identical to ㅐ today)"
+      }
+    ],
+    "reading": [
+      {
+        "block": "야",
+        "breakdown": "ㅇ (silent) + ㅑ (ya) = ya"
+      },
+      {
+        "block": "여",
+        "breakdown": "ㅇ (silent) + ㅕ (yeo) = yeo"
+      },
+      {
+        "block": "요",
+        "breakdown": "ㅇ (silent) + ㅛ (yo) = yo"
+      },
+      {
+        "block": "유",
+        "breakdown": "ㅇ (silent) + ㅠ (yu) = yu"
+      },
+      {
+        "block": "개",
+        "breakdown": "ㄱ (g) + ㅐ (ae) = gae (dog)"
+      },
+      {
+        "block": "네",
+        "breakdown": "ㄴ (n) + ㅔ (e) = ne (yes)"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Noun + 은/는 (topic particle: 'as for ___')",
+    "explanation": "은/는 marks the TOPIC of a sentence — the thing you are talking about, often translatable as 'as for ___' or simply the subject in English. Use 은 after a noun ending in a consonant, and 는 after a noun ending in a vowel. It also adds a sense of contrast: 저는 학생이에요 ('As for me, I'm a student').",
+    "examples": [
+      {
+        "ko": "저는 학생이에요.",
+        "en": "As for me, I am a student."
+      },
+      {
+        "ko": "이름은 민수예요.",
+        "en": "(My) name is Minsu."
+      },
+      {
+        "ko": "커피는 맛있어요.",
+        "en": "Coffee is delicious."
+      },
+      {
+        "ko": "오빠는 의사예요.",
+        "en": "(My) older brother is a doctor."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "저",
+      "en": "I / me (polite)",
+      "note": "humble form of 나"
+    },
+    {
+      "ko": "이름",
+      "en": "name",
+      "note": "ends in consonant → 이름은"
+    },
+    {
+      "ko": "우유",
+      "en": "milk",
+      "note": "uses ㅠ: u-yu"
+    },
+    {
+      "ko": "여자",
+      "en": "woman",
+      "note": "uses ㅕ: yeo-ja"
+    },
+    {
+      "ko": "야구",
+      "en": "baseball",
+      "note": "uses ㅑ: ya-gu"
+    },
+    {
+      "ko": "개",
+      "en": "dog",
+      "note": "uses ㅐ"
+    },
+    {
+      "ko": "의사",
+      "en": "doctor",
+      "note": ""
+    },
+    {
+      "ko": "맛있어요",
+      "en": "is delicious / tasty",
+      "note": "from 맛 (taste) + 있어요"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Read this block aloud and give its sound: 유",
+      "a": "yu (ㅇ silent + ㅠ)"
+    },
+    {
+      "q": "Fill in the particle: 저__ 학생이에요. (I am a student)",
+      "a": "는 → 저는 (저 ends in a vowel)"
+    },
+    {
+      "q": "Fill in the particle: 이름__ 민수예요. (Name is Minsu)",
+      "a": "은 → 이름은 (이름 ends in a consonant ㅁ)"
+    },
+    {
+      "q": "Say 'Coffee is delicious' in Korean.",
+      "a": "커피는 맛있어요."
+    },
+    {
+      "q": "Which two vowels both sound like the 'e' in 'bed'?",
+      "a": "ㅐ and ㅔ"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which vowel makes the sound 'yo' (as in yoga)?",
+      "options": [
+        "ㅛ",
+        "ㅑ",
+        "ㅠ",
+        "ㅕ"
+      ],
+      "answer": 0,
+      "explain": "ㅛ is ㅗ with an added stroke = 'yo'."
+    },
+    {
+      "q": "Choose the correct particle: 오빠__ 의사예요.",
+      "options": [
+        "은",
+        "는",
+        "이",
+        "가"
+      ],
+      "answer": 1,
+      "explain": "오빠 ends in the vowel ㅏ, so it takes 는."
+    },
+    {
+      "q": "Choose the correct particle: 이름__ 민수예요.",
+      "options": [
+        "는",
+        "은",
+        "가",
+        "를"
+      ],
+      "answer": 1,
+      "explain": "이름 ends in the consonant ㅁ, so it takes 은."
+    },
+    {
+      "q": "What does 은/는 mark in a sentence?",
+      "options": [
+        "The object",
+        "The topic",
+        "The location",
+        "Possession"
+      ],
+      "answer": 1,
+      "explain": "은/는 is the topic particle — 'as for ___'."
+    },
+    {
+      "q": "How do you read 여?",
+      "options": [
+        "ya",
+        "yo",
+        "yeo",
+        "yu"
+      ],
+      "answer": 2,
+      "explain": "ㅇ is silent + ㅕ (yeo) = yeo."
+    }
+  ]
+}
 ];
