@@ -803,5 +803,225 @@ const LESSONS = [
       "explain": "ㅇ is silent + ㅕ (yeo) = yeo."
     }
   ]
+},
+{
+  "day": 6,
+  "phase": 1,
+  "title": "W-Vowels (ㅘ ㅝ ㅚ ㅟ ㅙ ㅞ ㅢ) & the Subject Particle 이/가",
+  "focus": "Read the 'w' compound vowels and mark the subject of a sentence with 이/가.",
+  "hangul": {
+    "intro": "The last set of vowels are the 'w' (labialized) vowels, formed by gluing two vowels together so a quick 'w' glides in front. ㅗ or ㅜ leads, then a second vowel follows: ㅗ+ㅏ=ㅘ (wa), ㅜ+ㅓ=ㅝ (wo), ㅗ+ㅐ=ㅙ (wae), ㅜ+ㅔ=ㅞ (we), ㅗ+ㅣ=ㅚ (oe~we), ㅜ+ㅣ=ㅟ (wi). One leftover, ㅢ (ㅡ+ㅣ = 'ui'), is technically not a 'w' vowel but completes the set. With these, you can now read every Korean vowel.",
+    "items": [
+      {
+        "char": "ㅘ",
+        "sound": "wa",
+        "note": "ㅗ + ㅏ; 'wa' as in 'wand'"
+      },
+      {
+        "char": "ㅝ",
+        "sound": "wo",
+        "note": "ㅜ + ㅓ; 'wo' as in 'won'"
+      },
+      {
+        "char": "ㅙ",
+        "sound": "wae",
+        "note": "ㅗ + ㅐ; 'we' as in 'wet'"
+      },
+      {
+        "char": "ㅞ",
+        "sound": "we",
+        "note": "ㅜ + ㅔ; 'we' (same sound as ㅙ today)"
+      },
+      {
+        "char": "ㅚ",
+        "sound": "oe",
+        "note": "ㅗ + ㅣ; today pronounced like 'we'"
+      },
+      {
+        "char": "ㅟ",
+        "sound": "wi",
+        "note": "ㅜ + ㅣ; 'wi' as in 'week'"
+      },
+      {
+        "char": "ㅢ",
+        "sound": "ui",
+        "note": "ㅡ + ㅣ; glide 'eu' into 'i'"
+      }
+    ],
+    "reading": [
+      {
+        "block": "와",
+        "breakdown": "ㅇ (silent) + ㅘ (wa) = wa (and/with)"
+      },
+      {
+        "block": "워",
+        "breakdown": "ㅇ (silent) + ㅝ (wo) = wo"
+      },
+      {
+        "block": "왜",
+        "breakdown": "ㅇ (silent) + ㅙ (wae) = wae (why)"
+      },
+      {
+        "block": "위",
+        "breakdown": "ㅇ (silent) + ㅟ (wi) = wi (top/above)"
+      },
+      {
+        "block": "의",
+        "breakdown": "ㅇ (silent) + ㅢ (ui) = ui (of)"
+      },
+      {
+        "block": "회",
+        "breakdown": "ㅎ (h) + ㅚ (oe) = hoe (raw fish)"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Noun + 이/가 (subject particle)",
+    "explanation": "이/가 marks the SUBJECT — the noun that does the action or is being described, often introducing new information or answering 'who/what?'. Use 이 after a consonant and 가 after a vowel. Compare with 은/는: 은/는 sets the topic ('as for X'), while 이/가 points out the specific subject. A common pattern is 이/가 + 있어요/없어요 ('there is / isn't').",
+    "examples": [
+      {
+        "ko": "고양이가 있어요.",
+        "en": "There is a cat."
+      },
+      {
+        "ko": "시간이 없어요.",
+        "en": "There is no time."
+      },
+      {
+        "ko": "날씨가 좋아요.",
+        "en": "The weather is good."
+      },
+      {
+        "ko": "친구가 와요.",
+        "en": "A friend is coming."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "고양이",
+      "en": "cat",
+      "note": "go-yang-i"
+    },
+    {
+      "ko": "시간",
+      "en": "time",
+      "note": "ends in consonant -> 시간이"
+    },
+    {
+      "ko": "날씨",
+      "en": "weather",
+      "note": "nal-ssi"
+    },
+    {
+      "ko": "친구",
+      "en": "friend",
+      "note": "ends in vowel -> 친구가"
+    },
+    {
+      "ko": "왜",
+      "en": "why",
+      "note": "uses ㅙ"
+    },
+    {
+      "ko": "위",
+      "en": "top / above",
+      "note": "uses ㅟ"
+    },
+    {
+      "ko": "있어요",
+      "en": "there is / to have",
+      "note": "existence verb"
+    },
+    {
+      "ko": "없어요",
+      "en": "there is not / to not have",
+      "note": "opposite of 있어요"
+    },
+    {
+      "ko": "좋아요",
+      "en": "is good / nice",
+      "note": "from 좋다"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Read this block aloud and give its sound: 와",
+      "a": "wa (ㅇ silent + ㅘ)"
+    },
+    {
+      "q": "Fill in the particle: 고양이__ 있어요. (There is a cat)",
+      "a": "가 -> 고양이가 (고양이 ends in a vowel)"
+    },
+    {
+      "q": "Fill in the particle: 시간__ 없어요. (There is no time)",
+      "a": "이 -> 시간이 (시간 ends in the consonant ㄴ)"
+    },
+    {
+      "q": "Say 'The weather is good' in Korean.",
+      "a": "날씨가 좋아요."
+    },
+    {
+      "q": "What sound does ㅟ make?",
+      "a": "wi (as in 'week')"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which vowel makes the sound 'wa' (as in wand)?",
+      "options": [
+        "ㅝ",
+        "ㅘ",
+        "ㅟ",
+        "ㅚ"
+      ],
+      "answer": 1,
+      "explain": "ㅘ = ㅗ + ㅏ = 'wa'."
+    },
+    {
+      "q": "Choose the correct particle: 친구__ 와요.",
+      "options": [
+        "이",
+        "가",
+        "은",
+        "을"
+      ],
+      "answer": 1,
+      "explain": "친구 ends in the vowel ㅜ, so it takes 가."
+    },
+    {
+      "q": "Choose the correct particle: 시간__ 없어요.",
+      "options": [
+        "가",
+        "이",
+        "는",
+        "를"
+      ],
+      "answer": 1,
+      "explain": "시간 ends in the consonant ㄴ, so it takes 이."
+    },
+    {
+      "q": "What does 이/가 mark in a sentence?",
+      "options": [
+        "The topic",
+        "The subject",
+        "The object",
+        "The location"
+      ],
+      "answer": 1,
+      "explain": "이/가 is the subject particle, pointing out who or what."
+    },
+    {
+      "q": "How do you read 위?",
+      "options": [
+        "wa",
+        "wo",
+        "wi",
+        "ui"
+      ],
+      "answer": 2,
+      "explain": "ㅇ silent + ㅟ (wi) = wi."
+    }
+  ]
 }
 ];
