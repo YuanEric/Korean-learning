@@ -1023,5 +1023,217 @@ const LESSONS = [
       "explain": "ㅇ silent + ㅟ (wi) = wi."
     }
   ]
+},
+{
+  "day": 7,
+  "phase": 1,
+  "title": "받침 (Final Consonants) & the Object Particle 을/를",
+  "focus": "Read syllables with a bottom consonant (받침) and mark the object of a verb with 을/를.",
+  "hangul": {
+    "intro": "A 받침 (batchim) is a consonant written at the BOTTOM of a syllable block, e.g. ㅂ under 바 = 밥 (bap, 'rice'). Korean has many spellings but only 7 final SOUNDS. Every batchim collapses into one of these 7 when pronounced: ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅇ. They are unreleased — you stop the air without a strong release. So 밥 ends in a held 'p', and 책 ends in a held 'k'.",
+    "items": [
+      {
+        "char": "ㄱ받침 (악)",
+        "sound": "k",
+        "note": "ㄱ,ㅋ,ㄲ all become an unreleased 'k': 책 chaek"
+      },
+      {
+        "char": "ㄴ받침 (안)",
+        "sound": "n",
+        "note": "like 'n' in 'on': 산 san ('mountain')"
+      },
+      {
+        "char": "ㄷ받침 (앋)",
+        "sound": "t",
+        "note": "ㄷ,ㅌ,ㅅ,ㅈ,ㅊ,ㅎ become unreleased 't': 옷 ot ('clothes')"
+      },
+      {
+        "char": "ㄹ받침 (알)",
+        "sound": "l",
+        "note": "a soft 'l': 물 mul ('water')"
+      },
+      {
+        "char": "ㅁ받침 (암)",
+        "sound": "m",
+        "note": "like 'm' in 'ham': 밤 bam ('night')"
+      },
+      {
+        "char": "ㅂ받침 (압)",
+        "sound": "p",
+        "note": "ㅂ,ㅍ become unreleased 'p': 밥 bap ('rice')"
+      },
+      {
+        "char": "ㅇ받침 (앙)",
+        "sound": "ng",
+        "note": "like 'ng' in 'song': 강 gang ('river')"
+      }
+    ],
+    "reading": [
+      {
+        "block": "한국",
+        "breakdown": "한 (han: ㅎ+ㅏ+ㄴ) + 국 (guk: ㄱ+ㅜ+ㄱ) = han-guk, 'Korea'"
+      },
+      {
+        "block": "사람",
+        "breakdown": "사 (sa) + 람 (ram: ㄹ+ㅏ+ㅁ) = sa-ram, 'person'"
+      },
+      {
+        "block": "읽다",
+        "breakdown": "읽 (ik: double batchim ㄹㄱ, here read 'k') + 다 (da) = ik-da, 'to read'"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Noun + 을/를 (object particle)",
+    "explanation": "을/를 marks the OBJECT — the noun that the action is done TO. Use 을 after a consonant (받침) and 를 after a vowel. Pattern: SUBJECT + OBJECT을/를 + VERB. Korean word order is Subject–Object–Verb, so the verb comes last. In casual speech 을/를 is often dropped, but learn to use it correctly first.",
+    "examples": [
+      {
+        "ko": "밥을 먹어요.",
+        "en": "(I) eat rice."
+      },
+      {
+        "ko": "물을 마셔요.",
+        "en": "(I) drink water."
+      },
+      {
+        "ko": "책을 읽어요.",
+        "en": "(I) read a book."
+      },
+      {
+        "ko": "친구를 만나요.",
+        "en": "(I) meet a friend."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "밥",
+      "en": "rice / meal",
+      "note": "ㅂ batchim -> bap"
+    },
+    {
+      "ko": "물",
+      "en": "water",
+      "note": "ㄹ batchim -> mul"
+    },
+    {
+      "ko": "책",
+      "en": "book",
+      "note": "ㄱ batchim -> chaek"
+    },
+    {
+      "ko": "사람",
+      "en": "person",
+      "note": "ㅁ batchim -> saram"
+    },
+    {
+      "ko": "한국",
+      "en": "Korea",
+      "note": "han-guk"
+    },
+    {
+      "ko": "먹어요",
+      "en": "to eat",
+      "note": "takes an object with 을/를"
+    },
+    {
+      "ko": "마셔요",
+      "en": "to drink",
+      "note": "mashyeoyo"
+    },
+    {
+      "ko": "읽어요",
+      "en": "to read",
+      "note": "ilgeoyo"
+    },
+    {
+      "ko": "만나요",
+      "en": "to meet",
+      "note": "mannayo"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "What are the 7 possible final SOUNDS of a 받침?",
+      "a": "ㄱ(k), ㄴ(n), ㄷ(t), ㄹ(l), ㅁ(m), ㅂ(p), ㅇ(ng)"
+    },
+    {
+      "q": "Read aloud and give the sound: 밥",
+      "a": "bap (ㅂ + ㅏ + ㅂ batchim, unreleased 'p')"
+    },
+    {
+      "q": "Fill in the particle: 책__ 읽어요. (read a book)",
+      "a": "을 -> 책을 (책 ends in the consonant ㄱ)"
+    },
+    {
+      "q": "Fill in the particle: 친구__ 만나요. (meet a friend)",
+      "a": "를 -> 친구를 (친구 ends in a vowel)"
+    },
+    {
+      "q": "Say 'I drink water' in Korean.",
+      "a": "물을 마셔요."
+    },
+    {
+      "q": "What sound does the ㅅ batchim make in 옷?",
+      "a": "'t' (unreleased) -> ot"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "How many distinct final SOUNDS can a 받침 have?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "14"
+      ],
+      "answer": 1,
+      "explain": "Many spellings collapse into just 7 final sounds: ㄱㄴㄷㄹㅁㅂㅇ."
+    },
+    {
+      "q": "What is the final sound of 밥?",
+      "options": [
+        "m",
+        "n",
+        "p",
+        "k"
+      ],
+      "answer": 2,
+      "explain": "ㅂ as a batchim is an unreleased 'p'."
+    },
+    {
+      "q": "Choose the correct particle: 물__ 마셔요.",
+      "options": [
+        "를",
+        "을",
+        "이",
+        "는"
+      ],
+      "answer": 1,
+      "explain": "물 ends in the consonant ㄹ, so it takes 을."
+    },
+    {
+      "q": "Choose the correct particle: 친구__ 만나요.",
+      "options": [
+        "을",
+        "를",
+        "이",
+        "은"
+      ],
+      "answer": 1,
+      "explain": "친구 ends in a vowel, so it takes 를."
+    },
+    {
+      "q": "What does 을/를 mark in a sentence?",
+      "options": [
+        "The subject",
+        "The topic",
+        "The object",
+        "The location"
+      ],
+      "answer": 2,
+      "explain": "을/를 is the object particle — the thing the action is done to."
+    }
+  ]
 }
 ];
