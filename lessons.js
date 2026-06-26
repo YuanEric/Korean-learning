@@ -1235,5 +1235,198 @@ const LESSONS = [
       "explain": "을/를 is the object particle — the thing the action is done to."
     }
   ]
+},
+{
+  "day": 8,
+  "phase": 1,
+  "title": "연음 (Liaison) & the Place/Time Particle 에 with 가다/오다",
+  "focus": "Pronounce a 받침 that links to the next syllable, and say where/when you go using 에 + 가요/와요.",
+  "hangul": {
+    "intro": "You can read every Hangul block now — this lesson polishes pronunciation with 연음 (yeoneum, 'liaison'). When a syllable ends in a 받침 and the NEXT syllable begins with ㅇ (the silent placeholder), the final consonant slides over and is pronounced as that syllable's first sound. So 한국어 ('Korean language') is written han-guk-eo but pronounced han-gu-geo: the ㄱ of 국 moves into the empty ㅇ of 어. This makes speech flow smoothly and is essential for sounding natural.",
+    "items": [
+      {
+        "char": "음악",
+        "sound": "eu-mak → 으막",
+        "note": "ㅁ of 음 slides into 악: pronounced eu-mak ('music')"
+      },
+      {
+        "char": "한국어",
+        "sound": "han-gu-geo",
+        "note": "ㄱ of 국 slides into 어: 'Korean language'"
+      },
+      {
+        "char": "있어요",
+        "sound": "i-sseo-yo",
+        "note": "ㅆ of 있 slides into 어: 'there is/have'"
+      },
+      {
+        "char": "앉아요",
+        "sound": "an-ja-yo",
+        "note": "the second sound of the ㄵ batchim (ㅈ) slides into 아: 'sit'"
+      }
+    ],
+    "reading": [
+      {
+        "block": "직업",
+        "breakdown": "직 (jik) + 업 (eop) → liaison: ㄱ moves over → ji-geop ('job, occupation')"
+      },
+      {
+        "block": "집에",
+        "breakdown": "집 (jip) + 에 (e) → ji-be: 'at/to home' — the ㅂ links into 에"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Place/Time particle 에 + 가다/오다 → 가요/와요",
+    "explanation": "The particle 에 attaches to a noun to mark a DESTINATION ('to') or a TIME ('at/on'). It is added directly to the noun with no spelling change: 학교 + 에 = 학교에 ('to school'). The two core motion verbs are 가다 ('to go') and 오다 ('to come'). In casual-polite speech their dictionary endings (-다) are replaced: 가다 → 가요, 오다 → 와요. A full sentence follows the order [topic/subject] + [place]에 + [verb]: 저는 학교에 가요 ('I go to school'). For time, 에 marks when: 세 시에 ('at 3 o'clock'), 월요일에 ('on Monday'). Note: 오늘 ('today'), 어제 ('yesterday'), 내일 ('tomorrow') do NOT take 에.",
+    "examples": [
+      {
+        "ko": "저는 학교에 가요.",
+        "en": "I go to school."
+      },
+      {
+        "ko": "친구가 집에 와요.",
+        "en": "A friend comes to my house."
+      },
+      {
+        "ko": "내일 한국에 가요.",
+        "en": "I go to Korea tomorrow. (내일 takes no 에)"
+      },
+      {
+        "ko": "세 시에 카페에 가요.",
+        "en": "I go to the cafe at 3 o'clock."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "가다",
+      "en": "to go",
+      "note": "polite: 가요"
+    },
+    {
+      "ko": "오다",
+      "en": "to come",
+      "note": "polite: 와요"
+    },
+    {
+      "ko": "학교",
+      "en": "school",
+      "note": "hak-gyo"
+    },
+    {
+      "ko": "집",
+      "en": "house, home",
+      "note": "with 에 → 집에 (ji-be)"
+    },
+    {
+      "ko": "회사",
+      "en": "company, workplace",
+      "note": "hoe-sa"
+    },
+    {
+      "ko": "카페",
+      "en": "cafe",
+      "note": "loanword: ka-pe"
+    },
+    {
+      "ko": "내일",
+      "en": "tomorrow",
+      "note": "takes NO 에"
+    },
+    {
+      "ko": "오늘",
+      "en": "today",
+      "note": "takes NO 에"
+    },
+    {
+      "ko": "한국",
+      "en": "Korea",
+      "note": "han-guk"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Add the right particle: '학교__ 가요' (I go to school).",
+      "a": "학교에 가요 — 에 marks the destination."
+    },
+    {
+      "q": "Conjugate 오다 into casual-polite form.",
+      "a": "와요"
+    },
+    {
+      "q": "Translate: 'A friend comes to the cafe.'",
+      "a": "친구가 카페에 와요."
+    },
+    {
+      "q": "Why is '내일에 가요' wrong?",
+      "a": "내일 ('tomorrow') is a time word that does NOT take 에. Correct: 내일 가요."
+    },
+    {
+      "q": "Read aloud with liaison: 집에. How is it pronounced?",
+      "a": "ji-be (the ㅂ of 집 links into 에)."
+    },
+    {
+      "q": "Translate: 'I go to the company at 9 o'clock.' (9 o'clock = 아홉 시)",
+      "a": "저는 아홉 시에 회사에 가요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which particle marks a destination, as in 'to school'?",
+      "options": [
+        "은/는",
+        "을/를",
+        "에",
+        "이/가"
+      ],
+      "answer": 2,
+      "explain": "에 marks destination (and time). 학교에 = 'to school'."
+    },
+    {
+      "q": "What is the casual-polite form of 가다?",
+      "options": [
+        "가요",
+        "와요",
+        "가다요",
+        "가어요"
+      ],
+      "answer": 0,
+      "explain": "가다 → 가요. (오다 → 와요.)"
+    },
+    {
+      "q": "How is 한국어 actually pronounced (liaison)?",
+      "options": [
+        "han-guk-eo",
+        "han-gu-geo",
+        "han-gug-o",
+        "ha-nguk-eo"
+      ],
+      "answer": 1,
+      "explain": "The ㄱ of 국 slides into the empty ㅇ of 어: han-gu-geo."
+    },
+    {
+      "q": "Which sentence is correct?",
+      "options": [
+        "저는 집에 와요.",
+        "저는 집을 가요.",
+        "저는 집 가요에.",
+        "저는 집은 가요에."
+      ],
+      "answer": 0,
+      "explain": "Place + 에 + 가요/와요. 집에 와요 = 'come(s) home'."
+    },
+    {
+      "q": "Which time word does NOT take 에?",
+      "options": [
+        "월요일 (Monday)",
+        "세 시 (3 o'clock)",
+        "내일 (tomorrow)",
+        "아침 (morning)"
+      ],
+      "answer": 2,
+      "explain": "내일/오늘/어제 never take 에; the others can."
+    }
+  ]
 }
 ];
