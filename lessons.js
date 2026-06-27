@@ -1428,5 +1428,202 @@ const LESSONS = [
       "explain": "내일/오늘/어제 never take 에; the others can."
     }
   ]
-}
+},
+  {
+    "day": 9,
+    "phase": 1,
+    "title": "Present-Tense Polite Conjugation: -아요 / -어요 / 해요",
+    "focus": "Turn any dictionary verb (-다) into the everyday polite present tense and describe daily actions.",
+    "hangul": {
+      "intro": "One sound rule helps here: when a verb stem ending in the vowel ㅣ meets the -어요 ending, the two fuse into 여. So 마시다 ('drink') → 마시+어요 → 마셔요 (ma-syeo-yo). Likewise 보다 ('see') → 보+아요 → 봐요, because ㅗ+ㅏ fuse into ㅘ. These contractions keep speech smooth — listen for the glide.",
+      "items": [
+        {
+          "char": "마셔요",
+          "sound": "ma-syeo-yo",
+          "note": "마시 + 어요: the ㅣ fuses with 어 into 여 ('drink')"
+        },
+        {
+          "char": "봐요",
+          "sound": "bwa-yo",
+          "note": "보 + 아요: ㅗ+ㅏ fuse into ㅘ ('see, watch')"
+        },
+        {
+          "char": "해요",
+          "sound": "hae-yo",
+          "note": "하 + 여요 → 해요, the irregular 하다 form ('do')"
+        }
+      ],
+      "reading": [
+        {
+          "block": "먹어요",
+          "breakdown": "먹 (meok) + 어요 → meo-geo-yo: liaison carries ㄱ into 어 ('eat')"
+        },
+        {
+          "block": "좋아요",
+          "breakdown": "좋 (jot) + 아요 → jo-a-yo: the ㅎ goes silent before a vowel ('is good / I like it')"
+        }
+      ]
+    },
+    "grammar": {
+      "point": "The polite present tense: verb stem + 아요 / 어요 (and 하다 → 해요)",
+      "explanation": "Every Korean verb listed in a dictionary ends in -다. To speak politely in the present tense, drop -다 to get the STEM, then add one of three endings based on the stem's LAST vowel. (1) If the last vowel is ㅏ or ㅗ, add -아요: 살다 → 살아요 ('live'), 좋다 → 좋아요 ('is good'). (2) For every other vowel, add -어요: 먹다 → 먹어요 ('eat'), 읽다 → 읽어요 ('read'). (3) Any verb ending in 하다 becomes 해요: 공부하다 → 공부해요 ('study'). When the stem ends in a vowel, the two vowels often contract: 가다 → 가요 (ㅏ+ㅏ merge), 보다 → 봐요 (ㅗ+ㅏ→ㅘ), 마시다 → 마셔요 (ㅣ+ㅓ→ㅕ), 오다 → 와요. This single ending also works as a QUESTION — just raise your intonation: 밥 먹어요? ('Are you eating?'). You already met 가요/와요; now you can conjugate hundreds of verbs the same way.",
+      "examples": [
+        {
+          "ko": "저는 밥을 먹어요.",
+          "en": "I eat (a meal / rice)."
+        },
+        {
+          "ko": "친구가 커피를 마셔요.",
+          "en": "My friend drinks coffee."
+        },
+        {
+          "ko": "저는 한국어를 공부해요.",
+          "en": "I study Korean."
+        },
+        {
+          "ko": "오늘 영화를 봐요.",
+          "en": "I watch a movie today."
+        },
+        {
+          "ko": "이 책 좋아요?",
+          "en": "Is this book good? (same form, rising tone = question)"
+        }
+      ]
+    },
+    "vocab": [
+      {
+        "ko": "먹다",
+        "en": "to eat",
+        "note": "polite: 먹어요"
+      },
+      {
+        "ko": "마시다",
+        "en": "to drink",
+        "note": "polite: 마셔요 (contraction)"
+      },
+      {
+        "ko": "읽다",
+        "en": "to read",
+        "note": "polite: 읽어요 (il-geo-yo)"
+      },
+      {
+        "ko": "보다",
+        "en": "to see, watch",
+        "note": "polite: 봐요"
+      },
+      {
+        "ko": "하다",
+        "en": "to do",
+        "note": "polite: 해요 (irregular)"
+      },
+      {
+        "ko": "공부하다",
+        "en": "to study",
+        "note": "하다-verb: 공부해요"
+      },
+      {
+        "ko": "좋다",
+        "en": "to be good, to like",
+        "note": "polite: 좋아요 (jo-a-yo)"
+      },
+      {
+        "ko": "자다",
+        "en": "to sleep",
+        "note": "polite: 자요"
+      },
+      {
+        "ko": "커피",
+        "en": "coffee",
+        "note": "loanword: keo-pi"
+      },
+      {
+        "ko": "영화",
+        "en": "movie",
+        "note": "yeong-hwa"
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Conjugate 먹다 into polite present tense.",
+        "a": "먹어요 (stem 먹 has vowel ㅓ → -어요)."
+      },
+      {
+        "q": "Conjugate 좋다 into polite present tense.",
+        "a": "좋아요 (stem vowel ㅗ → -아요)."
+      },
+      {
+        "q": "Conjugate 공부하다 into polite present tense.",
+        "a": "공부해요 (every 하다 verb → 해요)."
+      },
+      {
+        "q": "Translate: 'My friend drinks coffee.'",
+        "a": "친구가 커피를 마셔요."
+      },
+      {
+        "q": "Why does 보다 become 봐요, not 보아요?",
+        "a": "The stem vowel ㅗ contracts with the ㅏ of -아요 to form ㅘ → 봐요."
+      },
+      {
+        "q": "Translate: 'I watch a movie today.'",
+        "a": "저는 오늘 영화를 봐요. (오늘 takes no 에)"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the polite present-tense form of 먹다?",
+        "options": [
+          "먹아요",
+          "먹어요",
+          "먹해요",
+          "먹다요"
+        ],
+        "answer": 1,
+        "explain": "Stem 먹 ends in vowel ㅓ (not ㅏ/ㅗ), so it takes -어요 → 먹어요."
+      },
+      {
+        "q": "Which ending do you add when the stem's last vowel is ㅏ or ㅗ?",
+        "options": [
+          "-어요",
+          "-아요",
+          "-해요",
+          "-여요"
+        ],
+        "answer": 1,
+        "explain": "ㅏ/ㅗ stems take -아요; all other vowels take -어요."
+      },
+      {
+        "q": "What is the polite present-tense form of 공부하다?",
+        "options": [
+          "공부하요",
+          "공부아요",
+          "공부해요",
+          "공부어요"
+        ],
+        "answer": 2,
+        "explain": "Any verb ending in 하다 becomes 해요: 공부하다 → 공부해요."
+      },
+      {
+        "q": "Why is 마시다 conjugated as 마셔요?",
+        "options": [
+          "The ㅣ and ㅓ fuse into ㅕ",
+          "It is irregular like 하다",
+          "The ㅅ drops out",
+          "ㅣ stems take -아요"
+        ],
+        "answer": 0,
+        "explain": "마시 + 어요: the stem-final ㅣ contracts with ㅓ to form 셔 → 마셔요."
+      },
+      {
+        "q": "Which sentence correctly means 'I drink coffee'?",
+        "options": [
+          "저는 커피를 마시다.",
+          "저는 커피를 마셔요.",
+          "저는 커피을 마셔요.",
+          "저는 커피를 마시어요."
+        ],
+        "answer": 1,
+        "explain": "커피 ends in a vowel → object particle 를, and 마시다 → 마셔요."
+      }
+    ]
+  }
 ];
