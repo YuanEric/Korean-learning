@@ -1625,5 +1625,188 @@ const LESSONS = [
         "explain": "커피 ends in a vowel → object particle 를, and 마시다 → 마셔요."
       }
     ]
-  }
+  },
+{
+  "day": 10,
+  "phase": 1,
+  "title": "Past-Tense Polite Conjugation: -았어요 / -었어요 / 했어요",
+  "focus": "Talk about what you did by turning any verb into the polite past tense.",
+  "hangul": {
+    "intro": "The past tense adds the marker ㅆ (a tense 'ss' sound) as a 받침 before -어요. When ㅆ sits at the bottom of a syllable and the next syllable starts with ㅇ, liaison carries the sound over: 먹었어요 reads meo-geo-sseo-yo. Listen for that crisp double-s — it signals the past.",
+    "items": [
+      {
+        "char": "갔어요",
+        "sound": "ga-sseo-yo",
+        "note": "가다 ('go') → past: 가+았어요 contracts to 갔어요"
+      },
+      {
+        "char": "먹었어요",
+        "sound": "meo-geo-sseo-yo",
+        "note": "먹다 ('eat') → past: 먹+었어요, ㅆ links forward"
+      },
+      {
+        "char": "했어요",
+        "sound": "hae-sseo-yo",
+        "note": "하다 ('do') → past: the irregular 했어요"
+      }
+    ],
+    "reading": [
+      {
+        "block": "왔어요",
+        "breakdown": "오 (o) + 았어요 → 왔어요 (wa-sseo-yo): ㅗ+ㅏ fuse into ㅘ ('came')"
+      },
+      {
+        "block": "마셨어요",
+        "breakdown": "마시 (ma-si) + 었어요 → 마셨어요 (ma-syeo-sseo-yo): ㅣ+어 fuse into 여 ('drank')"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "The polite past tense: verb stem + 았어요 / 었어요 (and 하다 → 했어요)",
+    "explanation": "Forming the past tense uses the SAME vowel rule you learned for the present, with ㅆ added before 어요. Drop -다 to get the stem. (1) If the stem's last vowel is ㅏ or ㅗ, add -았어요: 살다 → 살았어요 ('lived'), 좋다 → 좋았어요 ('was good'). (2) For any other vowel, add -었어요: 먹다 → 먹었어요 ('ate'), 읽다 → 읽었어요 ('read'). (3) 하다 verbs become 했어요: 공부하다 → 공부했어요 ('studied'). The same contractions apply: 가다 → 갔어요, 오다 → 왔어요, 보다 → 봤어요, 마시다 → 마셨어요. Notice the pattern is just present-tense -아요/-어요 with the 요 swapped for ㅆ어요.",
+    "examples": [
+      {
+        "ko": "어제 학교에 갔어요.",
+        "en": "I went to school yesterday."
+      },
+      {
+        "ko": "아침을 먹었어요.",
+        "en": "I ate breakfast."
+      },
+      {
+        "ko": "친구를 만났어요.",
+        "en": "I met a friend."
+      },
+      {
+        "ko": "한국어를 공부했어요.",
+        "en": "I studied Korean."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "어제",
+      "en": "yesterday",
+      "note": "common past-tense time word"
+    },
+    {
+      "ko": "아침",
+      "en": "morning; breakfast",
+      "note": "context tells which meaning"
+    },
+    {
+      "ko": "만나다",
+      "en": "to meet",
+      "note": "past: 만났어요 (만나+았어요)"
+    },
+    {
+      "ko": "읽다",
+      "en": "to read",
+      "note": "past: 읽었어요"
+    },
+    {
+      "ko": "보내다",
+      "en": "to send; to spend (time)",
+      "note": "past: 보냈어요"
+    },
+    {
+      "ko": "끝나다",
+      "en": "to end, finish",
+      "note": "past: 끝났어요 ('it ended')"
+    },
+    {
+      "ko": "주말",
+      "en": "weekend",
+      "note": "주(week) + 말(end)"
+    },
+    {
+      "ko": "정말",
+      "en": "really, truly",
+      "note": "useful intensifier"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Conjugate 가다 ('go') into the polite past tense.",
+      "a": "갔어요"
+    },
+    {
+      "q": "Conjugate 먹다 ('eat') into the polite past tense.",
+      "a": "먹었어요"
+    },
+    {
+      "q": "Conjugate 공부하다 ('study') into the polite past tense.",
+      "a": "공부했어요"
+    },
+    {
+      "q": "Say 'I read a book yesterday.' (book = 책)",
+      "a": "어제 책을 읽었어요."
+    },
+    {
+      "q": "Say 'The weekend ended.'",
+      "a": "주말이 끝났어요."
+    },
+    {
+      "q": "Conjugate 마시다 ('drink') into the polite past tense.",
+      "a": "마셨어요"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the past-tense polite form of 보다 ('see, watch')?",
+      "options": [
+        "보았어요",
+        "봤어요",
+        "보여요",
+        "봐요"
+      ],
+      "answer": 1,
+      "explain": "보+았어요 contracts (ㅗ+ㅏ→ㅘ) to 봤어요. 봐요 is present tense."
+    },
+    {
+      "q": "Which ending attaches to a stem whose last vowel is ㅓ, like 먹-?",
+      "options": [
+        "-았어요",
+        "-었어요",
+        "-했어요",
+        "-이에요"
+      ],
+      "answer": 1,
+      "explain": "ㅓ is not ㅏ/ㅗ, so use -었어요: 먹었어요."
+    },
+    {
+      "q": "What does 친구를 만났어요 mean?",
+      "options": [
+        "I will meet a friend",
+        "I meet a friend",
+        "I met a friend",
+        "I don't meet a friend"
+      ],
+      "answer": 2,
+      "explain": "만났어요 is past tense (만나+았어요), so 'I met a friend.'"
+    },
+    {
+      "q": "Choose the correct past tense of 공부하다 ('study').",
+      "options": [
+        "공부해요",
+        "공부하았어요",
+        "공부했어요",
+        "공부었어요"
+      ],
+      "answer": 2,
+      "explain": "All 하다 verbs become 했어요 in the past: 공부했어요."
+    },
+    {
+      "q": "In 먹었어요, why does it sound like 'meo-geo-sseo-yo'?",
+      "options": [
+        "The ㄱ is silent",
+        "Liaison carries the ㄱ 받침 into the next syllable",
+        "The ㅆ is silent",
+        "There is no liaison"
+      ],
+      "answer": 1,
+      "explain": "The ㄱ 받침 of 먹 links onto the following vowel, a regular 연음 (liaison) effect."
+    }
+  ]
+}
 ];
