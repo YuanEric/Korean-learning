@@ -1808,5 +1808,188 @@ const LESSONS = [
       "explain": "The ㄱ 받침 of 먹 links onto the following vowel, a regular 연음 (liaison) effect."
     }
   ]
+},
+{
+  "day": 11,
+  "phase": 1,
+  "title": "Negation: 안 and 못 (don't / can't)",
+  "focus": "Say what you don't do and what you can't do, in present and past tense.",
+  "hangul": {
+    "intro": "못 ('cannot') triggers pronunciation changes. Its ㅅ 받침 becomes a ㄷ-sound, and that ㄷ often tenses or nasalizes the next consonant. Listen for these shifts — they are regular and predictable once your ear knows them.",
+    "items": [
+      {
+        "char": "안",
+        "sound": "an",
+        "note": "placed BEFORE the verb to mean 'not (do)'"
+      },
+      {
+        "char": "못",
+        "sound": "mot",
+        "note": "placed before the verb for 'cannot'; final ㅅ → ㄷ sound"
+      },
+      {
+        "char": "못 가요",
+        "sound": "mot-ga-yo → [mot-kka-yo]",
+        "note": "the ㄷ-sound tenses the following ㄱ to ㄲ"
+      }
+    ],
+    "reading": [
+      {
+        "block": "안 먹어요",
+        "breakdown": "안 (an) + 먹어요 → an-meo-geo-yo ('do not eat'); 안 stays separate"
+      },
+      {
+        "block": "못 와요",
+        "breakdown": "못 (mot) + 와요 → [mon-nwa-yo]: the ㄷ-sound before ㅇ/ㄴ nasalizes ('cannot come')"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Two negations: 안 (simple 'not / don't') and 못 ('cannot, unable')",
+    "explanation": "Korean has two everyday negators, both placed directly before the conjugated verb. (1) 안 expresses simple negation — choosing not to, or a plain 'not': 가요 → 안 가요 ('I don't go'), 먹었어요 → 안 먹었어요 ('I didn't eat'). (2) 못 expresses inability — you want to but can't: 가요 → 못 가요 ('I can't go'), 잤어요 → 못 잤어요 ('I couldn't sleep'). Tense is shown on the verb as usual; 안 and 못 themselves never change. One special case: 하다 verbs split, putting the negator before 하다 — 공부해요 → 공부 안 해요 / 공부 못 해요 ('don't study' / 'can't study'), NOT 안 공부해요. There is also a longer form -지 않아요 (앤=longer negation), but the short 안 form is the most common in speech.",
+    "examples": [
+      {
+        "ko": "오늘은 학교에 안 가요.",
+        "en": "I don't go to school today."
+      },
+      {
+        "ko": "고기를 안 먹어요.",
+        "en": "I don't eat meat."
+      },
+      {
+        "ko": "너무 바빠서 못 갔어요.",
+        "en": "I was too busy, so I couldn't go."
+      },
+      {
+        "ko": "숙제를 아직 못 했어요.",
+        "en": "I haven't been able to do the homework yet."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "안",
+      "en": "not (don't)",
+      "note": "simple negation, before the verb"
+    },
+    {
+      "ko": "못",
+      "en": "cannot",
+      "note": "inability, before the verb"
+    },
+    {
+      "ko": "오늘",
+      "en": "today",
+      "note": "often takes 은: 오늘은"
+    },
+    {
+      "ko": "고기",
+      "en": "meat",
+      "note": "닭고기 = chicken, 소고기 = beef"
+    },
+    {
+      "ko": "바쁘다",
+      "en": "to be busy",
+      "note": "present: 바빠요 (ㅡ drops)"
+    },
+    {
+      "ko": "숙제",
+      "en": "homework",
+      "note": "숙제하다 = to do homework"
+    },
+    {
+      "ko": "아직",
+      "en": "(not) yet, still",
+      "note": "pairs with 못/안: 아직 못 했어요"
+    },
+    {
+      "ko": "술",
+      "en": "alcohol",
+      "note": "술을 못 마셔요 = I can't drink"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Make 가요 ('go') mean 'don't go' using 안.",
+      "a": "안 가요"
+    },
+    {
+      "q": "Make 먹었어요 ('ate') mean 'didn't eat'.",
+      "a": "안 먹었어요"
+    },
+    {
+      "q": "Make 와요 ('come') mean 'cannot come' using 못.",
+      "a": "못 와요"
+    },
+    {
+      "q": "Negate 공부해요 ('study') to mean 'don't study'. (mind the 하다 rule)",
+      "a": "공부 안 해요"
+    },
+    {
+      "q": "Say 'I couldn't sleep yesterday.' (sleep = 자다 → 잤어요)",
+      "a": "어제 못 잤어요."
+    },
+    {
+      "q": "Say 'I can't drink alcohol.'",
+      "a": "술을 못 마셔요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Where does 안 go relative to the verb?",
+      "options": [
+        "after the verb",
+        "before the verb",
+        "at the end of the sentence",
+        "attached to the noun"
+      ],
+      "answer": 1,
+      "explain": "Both 안 and 못 come directly before the conjugated verb."
+    },
+    {
+      "q": "Which means 'I can't go' (unable)?",
+      "options": [
+        "안 가요",
+        "못 가요",
+        "가요",
+        "갔어요"
+      ],
+      "answer": 1,
+      "explain": "못 expresses inability: 못 가요 = 'can't go'. 안 가요 = 'don't go' (choice)."
+    },
+    {
+      "q": "What is the correct negation of 공부해요 ('study') for 'don't study'?",
+      "options": [
+        "안 공부해요",
+        "공부 안 해요",
+        "공부해요 안",
+        "못 공부"
+      ],
+      "answer": 1,
+      "explain": "하다 verbs split: the negator goes before 해요 → 공부 안 해요."
+    },
+    {
+      "q": "못 가요 is actually pronounced...",
+      "options": [
+        "mot-ga-yo",
+        "mot-kka-yo",
+        "mo-ga-yo",
+        "mot-ha-yo"
+      ],
+      "answer": 1,
+      "explain": "The ㅅ→ㄷ sound tenses the following ㄱ to ㄲ: [mot-kka-yo]."
+    },
+    {
+      "q": "What does 너무 바빠서 못 갔어요 mean?",
+      "options": [
+        "I didn't want to go",
+        "I was too busy, so I couldn't go",
+        "I will be busy and won't go",
+        "I am busy but I'll go"
+      ],
+      "answer": 1,
+      "explain": "못 갔어요 is past inability ('couldn't go'); 바빠서 = 'because (I was) busy'."
+    }
+  ]
 }
 ];
