@@ -1991,5 +1991,197 @@ const LESSONS = [
       "explain": "못 갔어요 is past inability ('couldn't go'); 바빠서 = 'because (I was) busy'."
     }
   ]
+},
+{
+  "day": 12,
+  "phase": 1,
+  "title": "Expressing Desire: -고 싶어요 (want to) & ㅎ Aspiration",
+  "focus": "Say what you want to do, and hear how ㅎ merges with neighboring consonants.",
+  "hangul": {
+    "intro": "ㅎ is a quiet, slippery sound. When it meets ㄱ/ㄷ/ㅂ/ㅈ, the two fuse into a single aspirated consonant (격음화): ㅎ+ㄱ→ㅋ, ㅎ+ㄷ→ㅌ, ㅎ+ㅂ→ㅍ, ㅎ+ㅈ→ㅊ. This works in either order. Train your ear: you will hear a puff of air, not a separate 'h'.",
+    "items": [
+      {
+        "char": "좋다",
+        "sound": "jot-da → [조타 jo-ta]",
+        "note": "ㅎ받침 + ㄷ → ㅌ: 'to be good'"
+      },
+      {
+        "char": "많다",
+        "sound": "man-da → [만타 man-ta]",
+        "note": "ㄶ받침: the ㅎ aspirates the ㄷ → ㅌ: 'to be many'"
+      },
+      {
+        "char": "축하",
+        "sound": "chuk-ha → [추카 chu-ka]",
+        "note": "ㄱ + ㅎ → ㅋ: 'congratulation'"
+      }
+    ],
+    "reading": [
+      {
+        "block": "좋아요",
+        "breakdown": "좋 + 아요: here ㅎ sits before a vowel, so it goes SILENT and ㅈ liaises → [조아요 jo-a-yo] ('it's good'). Contrast with 좋다 → [조타]."
+      },
+      {
+        "block": "백화점",
+        "breakdown": "백 + 화점: ㄱ + ㅎ → ㅋ, giving [배콰점 bae-kwa-jeom] ('department store')."
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Verb stem + -고 싶어요 = 'want to (do)'",
+    "explanation": "To say you want to DO something, take the verb's dictionary stem (drop -다) and add -고 싶어요. 가다 → 가고 싶어요 ('I want to go'); 먹다 → 먹고 싶어요 ('I want to eat'); 마시다 → 마시고 싶어요 ('I want to drink'). The -고 part never changes — all tense and politeness live on 싶다 at the end: past = -고 싶었어요 ('wanted to'), negative = -고 싶지 않아요 ('don't want to'). One important shift: with -고 싶어요, the object often takes 이/가 instead of 을/를 — 물이 마시고 싶어요 is as natural as 물을 마시고 싶어요. Note: -고 싶어요 is used for the speaker (I) or in questions to 'you'; to report a third person's desire Korean uses -고 싶어해요, which comes later.",
+    "examples": [
+      {
+        "ko": "한국에 가고 싶어요.",
+        "en": "I want to go to Korea."
+      },
+      {
+        "ko": "뭐 먹고 싶어요?",
+        "en": "What do you want to eat?"
+      },
+      {
+        "ko": "물이 마시고 싶어요.",
+        "en": "I want to drink water."
+      },
+      {
+        "ko": "어제 자고 싶었어요.",
+        "en": "I wanted to sleep yesterday."
+      },
+      {
+        "ko": "오늘은 일하고 싶지 않아요.",
+        "en": "I don't want to work today."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "-고 싶어요",
+      "en": "want to (do)",
+      "note": "attaches to a verb stem"
+    },
+    {
+      "ko": "한국",
+      "en": "Korea",
+      "note": "한국에 가다 = go to Korea"
+    },
+    {
+      "ko": "쉬다",
+      "en": "to rest",
+      "note": "쉬고 싶어요 = I want to rest"
+    },
+    {
+      "ko": "여행",
+      "en": "travel, trip",
+      "note": "여행하다 = to travel"
+    },
+    {
+      "ko": "배우다",
+      "en": "to learn",
+      "note": "한국어를 배우고 싶어요"
+    },
+    {
+      "ko": "만나다",
+      "en": "to meet",
+      "note": "친구를 만나고 싶어요"
+    },
+    {
+      "ko": "선물",
+      "en": "gift, present",
+      "note": "선물을 사고 싶어요"
+    },
+    {
+      "ko": "백화점",
+      "en": "department store",
+      "note": "pronounced [배콰점]"
+    },
+    {
+      "ko": "축하",
+      "en": "congratulations",
+      "note": "축하해요! = Congrats!; [추카]"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Turn 보다 ('to see') into 'I want to see'.",
+      "a": "보고 싶어요"
+    },
+    {
+      "q": "Turn 배우다 ('to learn') into 'I want to learn'.",
+      "a": "배우고 싶어요"
+    },
+    {
+      "q": "Say 'I want to meet a friend.' (friend = 친구)",
+      "a": "친구를 만나고 싶어요. (or 친구가 만나고 싶어요)"
+    },
+    {
+      "q": "Say 'I wanted to rest.' (past tense)",
+      "a": "쉬고 싶었어요."
+    },
+    {
+      "q": "Say 'I don't want to eat today.'",
+      "a": "오늘은 먹고 싶지 않아요."
+    },
+    {
+      "q": "How is 좋다 actually pronounced, and why?",
+      "a": "[조타] — the ㅎ받침 aspirates the following ㄷ into ㅌ."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "How do you say 'want to (do)' on a verb?",
+      "options": [
+        "stem + -고 싶어요",
+        "stem + -아요",
+        "안 + verb",
+        "stem + -었어요"
+      ],
+      "answer": 0,
+      "explain": "Verb stem + -고 싶어요 expresses desire to perform the action."
+    },
+    {
+      "q": "Which means 'I want to go'?",
+      "options": [
+        "가요",
+        "갔어요",
+        "가고 싶어요",
+        "안 가요"
+      ],
+      "answer": 2,
+      "explain": "가다 → 가 + 고 싶어요 = 가고 싶어요."
+    },
+    {
+      "q": "Where does tense (past) appear in '-고 싶어요'?",
+      "options": [
+        "on the -고 part",
+        "on 싶다 at the end",
+        "before the verb",
+        "it can't be made past"
+      ],
+      "answer": 1,
+      "explain": "Tense lives on 싶다: -고 싶었어요 = 'wanted to'."
+    },
+    {
+      "q": "How is 좋다 pronounced?",
+      "options": [
+        "[조다]",
+        "[조타]",
+        "[졷다]",
+        "[조하]"
+      ],
+      "answer": 1,
+      "explain": "ㅎ받침 + ㄷ fuse into the aspirated ㅌ → [조타]."
+    },
+    {
+      "q": "In 좋아요, what happens to the ㅎ?",
+      "options": [
+        "it becomes ㅋ",
+        "it goes silent before the vowel",
+        "it tenses the next sound",
+        "it nasalizes"
+      ],
+      "answer": 1,
+      "explain": "Before a vowel the ㅎ drops and ㅈ liaises: [조아요]."
+    }
+  ]
 }
 ];
