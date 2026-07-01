@@ -2184,4 +2184,197 @@ const LESSONS = [
     }
   ]
 }
+,
+{
+  "day": 13,
+  "phase": 1,
+  "title": "Sino-Korean Numbers & ㄴ-Insertion",
+  "focus": "Count with Sino-Korean numbers (일~백) for money, phone numbers, and dates; hear how ㄴ gets inserted between certain syllables.",
+  "hangul": {
+    "intro": "When a syllable ending in a consonant is followed by 이/야/여/요/유, Korean often inserts an extra ㄴ sound between them (ㄴ첨가). This new ㄴ can then trigger nasalization (비음화) on the batchim before it. The number 육 ('six') is the classic trigger — watch it change the sound of everything before it.",
+    "items": [
+      {
+        "char": "육",
+        "sound": "yuk (alone) → [-nyuk] after a batchim",
+        "note": "'six'; when it follows a closed syllable, a ㄴ is inserted before it"
+      },
+      {
+        "char": "공",
+        "sound": "gong",
+        "note": "'zero' — used only for phone numbers/serial digits, not 영 (the math 'zero')"
+      },
+      {
+        "char": "백",
+        "sound": "baek",
+        "note": "'hundred'; its ㄱ받침 nasalizes to ㅇ when a ㄴ sound follows"
+      }
+    ],
+    "reading": [
+      {
+        "block": "십육",
+        "breakdown": "십(sip) + 육(yuk) → ㄴ is inserted before 육: 십+닉. Then 십's ㅂ받침 nasalizes to ㅁ before that ㄴ → [심뉵] (16, 'sixteen')."
+      },
+      {
+        "block": "백육",
+        "breakdown": "백(baek) + 육(yuk) → ㄴ inserted: 백+닉. Then 백's ㄱ받침 nasalizes to ㅇ before the ㄴ → [뱅뉵] (106)."
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Sino-Korean numbers 일(1)~백(100), used for money, phone numbers, dates, and minutes",
+    "explanation": "Korean has two full number systems. Today's is Sino-Korean (from Chinese characters): 일 1, 이 2, 삼 3, 사 4, 오 5, 육 6, 칠 7, 팔 8, 구 9, 십 10. Teens just add onto 십: 십일 11, 십이 12, 십삼 13 ... 십구 19. Tens are digit+십: 이십 20, 삼십 30, 사십 40, 오십 50, 육십 60, 칠십 70, 팔십 80, 구십 90. 100 is simply 백. Build any number by chaining: 이십삼 (2-10-3) = 23, 백육 (100-6) = 106. Sino-Korean numbers are required for won amounts (원), phone numbers (read digit by digit, using 공 for zero), calendar dates (월 month + 일 day), and minutes (분). The other system, native Korean numbers (하나, 둘, 셋...), is used for counting objects, age, and o'clock hours — that comes in a later lesson, so for now assume any bare number is Sino-Korean.",
+    "examples": [
+      {
+        "ko": "이거 백 원이에요.",
+        "en": "This is 100 won."
+      },
+      {
+        "ko": "전화번호가 공일공에 이삼사에 오육칠팔이에요.",
+        "en": "The phone number is 010-234-5678."
+      },
+      {
+        "ko": "오늘은 칠월 일 일이에요.",
+        "en": "Today is July 1st."
+      },
+      {
+        "ko": "지금 십 분이에요.",
+        "en": "It's 10 minutes (past) right now."
+      },
+      {
+        "ko": "저는 이 층에 있어요.",
+        "en": "I'm on the 2nd floor."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "얼마",
+      "en": "how much",
+      "note": "이거 얼마예요? = How much is this?"
+    },
+    {
+      "ko": "원",
+      "en": "won (currency)",
+      "note": "attaches directly after the number: 백 원"
+    },
+    {
+      "ko": "전화번호",
+      "en": "phone number",
+      "note": "read digit-by-digit with Sino-Korean numbers"
+    },
+    {
+      "ko": "공",
+      "en": "zero",
+      "note": "used in phone/serial numbers instead of 영"
+    },
+    {
+      "ko": "월",
+      "en": "month (calendar)",
+      "note": "칠월 = July (literally '7-month')"
+    },
+    {
+      "ko": "일",
+      "en": "day (of month) / one",
+      "note": "same syllable as the number 'one'; context tells them apart"
+    },
+    {
+      "ko": "분",
+      "en": "minute",
+      "note": "십 분 = 10 minutes"
+    },
+    {
+      "ko": "층",
+      "en": "floor (of a building)",
+      "note": "이 층 = 2nd floor"
+    },
+    {
+      "ko": "번",
+      "en": "number / counter for 'time(s)'",
+      "note": "일 번 = number one"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say the number 23 in Sino-Korean.",
+      "a": "이십삼"
+    },
+    {
+      "q": "Say the number 106 in Sino-Korean.",
+      "a": "백육"
+    },
+    {
+      "q": "How is 십육 (16) actually pronounced?",
+      "a": "[심뉵] — ㄴ-insertion before 육, then the ㅂ받침 nasalizes to ㅁ"
+    },
+    {
+      "q": "Say 'This is 100 won.'",
+      "a": "이거 백 원이에요."
+    },
+    {
+      "q": "Say 'Today is July 1st.'",
+      "a": "오늘은 칠월 일 일이에요."
+    },
+    {
+      "q": "Why is 공 used instead of 영 in phone numbers?",
+      "a": "공 is the conventional 'zero' for reading digit strings like phone numbers; 영 is used in math/general contexts."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which number system is used for won amounts, phone numbers, and dates?",
+      "options": [
+        "Native Korean (하나, 둘, 셋)",
+        "Sino-Korean (일, 이, 삼)",
+        "Either, interchangeably",
+        "Neither — digits are read in English"
+      ],
+      "answer": 1,
+      "explain": "Money, phone numbers, dates, and minutes all use Sino-Korean numbers."
+    },
+    {
+      "q": "What is 백육 (106) pronounced as?",
+      "options": [
+        "[백육]",
+        "[배귝]",
+        "[뱅뉵]",
+        "[배윤]"
+      ],
+      "answer": 2,
+      "explain": "ㄴ-insertion adds ㄴ before 육, then 백's ㄱ받침 nasalizes to ㅇ before that ㄴ: [뱅뉵]."
+    },
+    {
+      "q": "How do you say 23 in Sino-Korean?",
+      "options": [
+        "이십삼",
+        "삼십이",
+        "이백삼",
+        "십이삼"
+      ],
+      "answer": 0,
+      "explain": "20 (이십) + 3 (삼) = 이십삼."
+    },
+    {
+      "q": "Which zero is used when reading a phone number?",
+      "options": [
+        "영",
+        "공",
+        "제로",
+        "빵"
+      ],
+      "answer": 1,
+      "explain": "공 is the conventional zero for digit-by-digit readings like phone numbers."
+    },
+    {
+      "q": "Why does 십육 sound like [심뉵] rather than [십육]?",
+      "options": [
+        "육 always changes ㅅ to ㅁ",
+        "A ㄴ is inserted before 육, which then nasalizes 십's ㅂ받침 to ㅁ",
+        "Sino-Korean numbers ignore batchim entirely",
+        "It is an irregular exception with no rule"
+      ],
+      "answer": 1,
+      "explain": "This is regular ㄴ첨가 followed by 비음화 (ㅂ→ㅁ before ㄴ)."
+    }
+  ]
+}
 ];
