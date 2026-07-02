@@ -2376,5 +2376,202 @@ const LESSONS = [
       "explain": "This is regular ㄴ첨가 followed by 비음화 (ㅂ→ㅁ before ㄴ)."
     }
   ]
+},
+{
+  "day": 14,
+  "phase": 1,
+  "title": "Native Korean Numbers: Counting Objects, Age & Time",
+  "focus": "Count objects and people, state your age, and tell the hour using native Korean numbers (하나, 둘, 셋...) and their contracted counter forms.",
+  "hangul": {
+    "intro": "몇 ('how many/what') ends in ㅊ, but like all non-basic batchim it is pronounced with one of the 7 representative batchim sounds — here, a ㄷ-sound. That ㄷ-sound then tenses the very next consonant, the same pattern you saw with 못 in Day 11.",
+    "items": [
+      {
+        "char": "몇",
+        "sound": "myeot (ㅊ받침 → [ㄷ] sound)",
+        "note": "'how many / what'; tenses the following consonant"
+      },
+      {
+        "char": "몇 개",
+        "sound": "myeot-gae → [멷깨 myeot-kkae]",
+        "note": "'how many (items)'"
+      },
+      {
+        "char": "살",
+        "sound": "sal",
+        "note": "age counter, follows a native Korean number"
+      }
+    ],
+    "reading": [
+      {
+        "block": "몇 시예요?",
+        "breakdown": "몇(ㄷ-sound batchim) + 시 → the ㄷ-sound tenses ㅅ to ㅆ: [멷씨예요] ('What time is it?')"
+      },
+      {
+        "block": "스무 살",
+        "breakdown": "스물 (20) drops ㄹ and shortens to 스무 before a counter like 살 — a special contracted form, not a regular sound rule"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "Native Korean numbers 하나~아흔아홉, used with counters for objects, people, age, and o'clock hours",
+    "explanation": "Alongside Sino-Korean numbers (Day 13), Korean has a separate native counting system: 하나 1, 둘 2, 셋 3, 넷 4, 다섯 5, 여섯 6, 일곱 7, 여덟 8, 아홉 9, 열 10. Tens are their own words: 스물 20, 서른 30, 마흔 40, 쉰 50, 예순 60, 일흔 70, 여든 80, 아흔 90 (native numbers stop at 99 — 100 and above always switch to Sino-Korean 백). Native numbers are always followed by a counter word, and the first four numbers plus 20 change shape right before a counter: 하나→한, 둘→두, 셋→세, 넷→네, 스물→스무. Common counters: 개 (general objects), 명 (people), 마리 (animals), 살 (age), and 시 (the hour in clock time — paired with Sino-Korean 분 for minutes, as in 한 시 십 분 = 1:10). This is the system for 'how many/how old/what hour', while Sino-Korean stays for money, phone numbers, dates, and minutes.",
+    "examples": [
+      {
+        "ko": "사과 세 개 주세요.",
+        "en": "Please give me three apples."
+      },
+      {
+        "ko": "저는 스무 살이에요.",
+        "en": "I am 20 years old."
+      },
+      {
+        "ko": "지금 몇 시예요?",
+        "en": "What time is it now?"
+      },
+      {
+        "ko": "한 시 십 분이에요.",
+        "en": "It's 1:10."
+      },
+      {
+        "ko": "친구가 두 명 있어요.",
+        "en": "I have two friends."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "개",
+      "en": "counter: general objects",
+      "note": "사과 한 개 = one apple"
+    },
+    {
+      "ko": "명",
+      "en": "counter: people",
+      "note": "학생 두 명 = two students"
+    },
+    {
+      "ko": "마리",
+      "en": "counter: animals",
+      "note": "강아지 한 마리 = one puppy"
+    },
+    {
+      "ko": "살",
+      "en": "counter: age",
+      "note": "몇 살이에요? = How old are you?"
+    },
+    {
+      "ko": "시",
+      "en": "o'clock (hour)",
+      "note": "세 시 = 3 o'clock; pairs with Sino-Korean 분 for minutes"
+    },
+    {
+      "ko": "몇",
+      "en": "how many / what",
+      "note": "always paired with a counter: 몇 개, 몇 시, 몇 살"
+    },
+    {
+      "ko": "사과",
+      "en": "apple",
+      "note": ""
+    },
+    {
+      "ko": "강아지",
+      "en": "puppy, dog",
+      "note": ""
+    },
+    {
+      "ko": "지금",
+      "en": "now",
+      "note": "지금 몇 시예요? = What time is it now?"
+    },
+    {
+      "ko": "스무",
+      "en": "twenty (contracted)",
+      "note": "스물 → 스무 right before a counter"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say 'Please give me three apples.'",
+      "a": "사과 세 개 주세요."
+    },
+    {
+      "q": "Say 'I am 20 years old.'",
+      "a": "저는 스무 살이에요."
+    },
+    {
+      "q": "Say 'What time is it now?'",
+      "a": "지금 몇 시예요?"
+    },
+    {
+      "q": "Say 'It's 2 o'clock.'",
+      "a": "두 시예요."
+    },
+    {
+      "q": "Give the contracted form of 넷 used right before a counter.",
+      "a": "네"
+    },
+    {
+      "q": "Say 'I have one dog.'",
+      "a": "강아지 한 마리 있어요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which number system is used for age, counting objects, and clock hours?",
+      "options": [
+        "Sino-Korean",
+        "Native Korean",
+        "Both equally",
+        "Neither — English digits are used"
+      ],
+      "answer": 1,
+      "explain": "Native Korean numbers (하나, 둘, 셋...) pair with counters like 개, 명, 살, and 시."
+    },
+    {
+      "q": "What is the contracted form of 하나 used right before a counter?",
+      "options": [
+        "하나",
+        "한",
+        "하난",
+        "하나개"
+      ],
+      "answer": 1,
+      "explain": "하나 shortens to 한 immediately before a counter: 한 개, 한 명, 한 살."
+    },
+    {
+      "q": "몇 시예요 is actually pronounced...",
+      "options": [
+        "myeot-si-yeyo",
+        "myeot-ssi-yeyo",
+        "myeon-si-yeyo",
+        "myeot-hi-yeyo"
+      ],
+      "answer": 1,
+      "explain": "몇's ㄷ-sound batchim tenses the following ㅅ into ㅆ: [멷씨예요]."
+    },
+    {
+      "q": "Which counter is used for people?",
+      "options": [
+        "개",
+        "명",
+        "마리",
+        "살"
+      ],
+      "answer": 1,
+      "explain": "명 counts people; 개 is for general objects, 마리 for animals, 살 for age."
+    },
+    {
+      "q": "How do you say '20 years old'?",
+      "options": [
+        "이십 살",
+        "스무 살",
+        "스물 살",
+        "이십살이"
+      ],
+      "answer": 1,
+      "explain": "스물 (20) contracts to 스무 right before the counter 살."
+    }
+  ]
 }
 ];
