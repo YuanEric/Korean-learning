@@ -2573,5 +2573,202 @@ const LESSONS = [
       "explain": "스물 (20) contracts to 스무 right before the counter 살."
     }
   ]
-}
+},
+  {
+    "day": 15,
+    "phase": 1,
+    "title": "Telling Time: Hours & Minutes + 겹받침 (Double Batchim)",
+    "focus": "Tell full clock time by combining native-Korean hours with Sino-Korean minutes, and learn to read double batchim (겹받침) syllables like 없다 and 읽다.",
+    "hangul": {
+      "intro": "Some syllables end in two consonants stacked in the batchim slot — called 겹받침 (double batchim), e.g. ㅄ in 없, or ㄺ in 읽. Only ONE of the two consonants is actually pronounced; Korean never pronounces both. Which one survives depends on the specific pair, so these are best learned syllable by syllable.",
+      "items": [
+        {
+          "char": "없다",
+          "sound": "eobs-da → [업따 eop-tta]",
+          "note": "'to not have / not exist'; batchim ㅄ → only ㅂ is pronounced, and it tenses the following ㄷ"
+        },
+        {
+          "char": "읽다",
+          "sound": "ilg-da → [익따 ik-tta]",
+          "note": "'to read'; batchim ㄺ → only ㄱ is pronounced here (before a consonant), and it tenses the following ㄷ"
+        },
+        {
+          "char": "닭",
+          "sound": "dalg → [닥 dak]",
+          "note": "'chicken'; batchim ㄺ → only ㄱ survives at the end of a word (the opposite letter of the pair survives depending on the word, so these are memorized individually)"
+        }
+      ],
+      "reading": [
+        {
+          "block": "돈이 없어요",
+          "breakdown": "없 + 어요: the ㅄ batchim links to the empty ㅇ of 어, so it's pronounced [업써요 eop-sseo-yo] — 'There's no money / I don't have money'"
+        },
+        {
+          "block": "책을 읽어요",
+          "breakdown": "읽 + 어요: ㄺ links to 어, pronounced [일거요 il-geo-yo] — before a vowel, BOTH letters of some double batchim can surface via linking, unlike before a consonant. Compare to 읽다 → [익따] above."
+        }
+      ]
+    },
+    "grammar": {
+      "point": "시 (hour, native numbers) + 분 (minute, Sino numbers) — telling exact time",
+      "explanation": "Korean time uses two number systems in one phrase: the HOUR uses native Korean numbers (한 시, 두 시, 세 시... — note 하나/둘/셋 shorten to 한/두/세 before 시), while the MINUTE uses Sino-Korean numbers (일 분, 이 분, 삼십 분...). 반 ('half') can replace 삼십 분 for 'half past.' 정각 means 'exactly/on the dot.' Time of day is marked with 오전 (a.m.) or 오후 (p.m.) placed before the time.",
+      "examples": [
+        {
+          "ko": "지금 몇 시예요?",
+          "en": "What time is it now?"
+        },
+        {
+          "ko": "아홉 시 십오 분이에요.",
+          "en": "It's 9:15."
+        },
+        {
+          "ko": "세 시 반에 만나요.",
+          "en": "Let's meet at 3:30."
+        },
+        {
+          "ko": "오후 여섯 시 정각이에요.",
+          "en": "It's exactly 6:00 p.m."
+        },
+        {
+          "ko": "저는 신문을 읽어요.",
+          "en": "I read the newspaper."
+        }
+      ]
+    },
+    "vocab": [
+      {
+        "ko": "시",
+        "en": "hour (o'clock)",
+        "note": "native-Korean number + 시"
+      },
+      {
+        "ko": "분",
+        "en": "minute",
+        "note": "Sino-Korean number + 분"
+      },
+      {
+        "ko": "반",
+        "en": "half (past)",
+        "note": "replaces 삼십 분"
+      },
+      {
+        "ko": "정각",
+        "en": "exactly, on the dot",
+        "note": ""
+      },
+      {
+        "ko": "오전",
+        "en": "a.m., morning",
+        "note": ""
+      },
+      {
+        "ko": "오후",
+        "en": "p.m., afternoon",
+        "note": ""
+      },
+      {
+        "ko": "없다",
+        "en": "to not have, to not exist",
+        "note": "irregular-feeling but regular verb; opposite of 있다"
+      },
+      {
+        "ko": "읽다",
+        "en": "to read",
+        "note": ""
+      },
+      {
+        "ko": "책",
+        "en": "book",
+        "note": ""
+      },
+      {
+        "ko": "신문",
+        "en": "newspaper",
+        "note": ""
+      }
+    ],
+    "exercises": [
+      {
+        "q": "Say 'It's 7:20' in Korean.",
+        "a": "일곱 시 이십 분이에요."
+      },
+      {
+        "q": "Say 'Let's meet at 4:30' in Korean.",
+        "a": "네 시 반에 만나요."
+      },
+      {
+        "q": "Translate: 돈이 없어요.",
+        "a": "I don't have money."
+      },
+      {
+        "q": "Translate: 저는 책을 읽어요.",
+        "a": "I read a book. / I'm reading a book."
+      },
+      {
+        "q": "Fill in the hour word: 두 ___ 반이에요 (It's 2:30).",
+        "a": "시"
+      },
+      {
+        "q": "How is 읽다 pronounced?",
+        "a": "[익따 ik-tta]"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'3:30' in Korean is:",
+        "options": [
+          "삼 시 삼십 분",
+          "세 시 반",
+          "셋 시 삼십 분",
+          "삼 시 반"
+        ],
+        "answer": 1,
+        "explain": "The hour uses the native-Korean short form 세 (from 셋) + 시; 'half past' is 반, not 삼 시."
+      },
+      {
+        "q": "Which number system is used for MINUTES?",
+        "options": [
+          "Native Korean (하나, 둘, 셋...)",
+          "Sino-Korean (일, 이, 삼...)",
+          "Either, freely mixed",
+          "Neither — minutes use counters only"
+        ],
+        "answer": 1,
+        "explain": "Minutes always use Sino-Korean numbers: 일 분, 이 분, 삼십 분, etc."
+      },
+      {
+        "q": "없어요 (there isn't / don't have) is pronounced:",
+        "options": [
+          "[없어요, both consonants heard]",
+          "[어벼요]",
+          "[업써요]",
+          "[어써요]"
+        ],
+        "answer": 2,
+        "explain": "The ㅄ batchim links to the following vowel as ㅂ, and that ㅂ tenses the ㅅ of 어요 → [업써요]."
+      },
+      {
+        "q": "책을 읽어요 means:",
+        "options": [
+          "I write a book",
+          "I buy a book",
+          "I read a book",
+          "I have a book"
+        ],
+        "answer": 2,
+        "explain": "읽다 = 'to read'; 책을 읽어요 = 'I read/am reading a book.'"
+      },
+      {
+        "q": "오후 여섯 시 정각 means:",
+        "options": [
+          "Around 6 a.m.",
+          "Exactly 6 p.m.",
+          "Half past 6 p.m.",
+          "Exactly 6 a.m."
+        ],
+        "answer": 1,
+        "explain": "오후 = p.m., 여섯 시 = 6 o'clock, 정각 = 'exactly/on the dot.'"
+      }
+    ]
+  }
 ];
