@@ -2770,5 +2770,202 @@ const LESSONS = [
         "explain": "오후 = p.m., 여섯 시 = 6 o'clock, 정각 = 'exactly/on the dot.'"
       }
     ]
-  }
+  },
+{
+  "day": 16,
+  "phase": 1,
+  "title": "Talking About Dates: 년/월/일 + More 겹받침 (앉다, 많다, 괜찮다)",
+  "focus": "State full dates with Sino-Korean numbers using 년/월/일 (with irregular 6월/10월), and read three more double-batchim words.",
+  "hangul": {
+    "intro": "More 겹받침 (double batchim) pairs: ㄵ (as in 앉다) and ㄶ (as in 많다, 괜찮다). Before a CONSONANT, ㄵ surfaces as ㄴ and tenses what follows; ㄶ surfaces as ㅎ, which combines with a following ㄷ/ㄱ/ㅈ to make an aspirated sound (ㅌ/ㅋ/ㅊ). Before a VOWEL, the rules flip: ㄵ splits so both letters are heard, while the ㅎ of ㄶ usually disappears.",
+    "items": [
+      {
+        "char": "앉다",
+        "sound": "anj-da → [안따 an-tta]",
+        "note": "'to sit'; batchim ㄵ → only ㄴ is pronounced before a consonant, and it tenses the following ㄷ"
+      },
+      {
+        "char": "많다",
+        "sound": "manh-da → [만타 man-ta]",
+        "note": "'to be many/much'; batchim ㄶ → the ㅎ combines with ㄷ to form the aspirated ㅌ"
+      },
+      {
+        "char": "괜찮다",
+        "sound": "gwaenchanh-da → [괜찬타 gwaen-chan-ta]",
+        "note": "'to be okay/fine'; same ㄶ + ㄷ → ㅌ pattern as 많다"
+      }
+    ],
+    "reading": [
+      {
+        "block": "여기 앉으세요",
+        "breakdown": "앉 + 으세요: before a vowel, ㄵ splits — ㄴ stays behind, ㅈ moves forward — giving [안즈세요 an-jeu-se-yo], 'Please sit here.'"
+      },
+      {
+        "block": "시간이 많아요",
+        "breakdown": "많 + 아요: before a vowel, the ㅎ of ㄶ is silent and only ㄴ carries over, giving [마나요 ma-na-yo], 'There's a lot of time.'"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "년/월/일 — saying full dates",
+    "explanation": "Dates use Sino-Korean numbers throughout: [number]년 (year) + [number]월 (month) + [number]일 (day). Two months are irregular: 6월 is 유월 (not 육월) and 10월 is 시월 (not 십월) — the final consonant of 육/십 is dropped for smoother pronunciation. 'What date is it?' is 몇 월 며칠이에요?, using 몇 (what/which) for month and the special word 며칠 for 'what day of the month.'",
+    "examples": [
+      {
+        "ko": "오늘은 몇 월 며칠이에요?",
+        "en": "What's today's date?"
+      },
+      {
+        "ko": "칠월 사 일이에요.",
+        "en": "It's July 4th."
+      },
+      {
+        "ko": "제 생일은 유월 십오 일이에요.",
+        "en": "My birthday is June 15th."
+      },
+      {
+        "ko": "이천이십육 년 칠월 사 일이에요.",
+        "en": "It's July 4, 2026."
+      },
+      {
+        "ko": "여기 앉으세요. 시간이 많아요.",
+        "en": "Please sit here. There's plenty of time."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "년",
+      "en": "year",
+      "note": "Sino-Korean number + 년"
+    },
+    {
+      "ko": "월",
+      "en": "month",
+      "note": "Sino-Korean number + 월; 6=유월, 10=시월"
+    },
+    {
+      "ko": "일",
+      "en": "day (of month)",
+      "note": "Sino-Korean number + 일"
+    },
+    {
+      "ko": "며칠",
+      "en": "what day (of the month)",
+      "note": "used with 몇 월 for full date questions"
+    },
+    {
+      "ko": "생일",
+      "en": "birthday",
+      "note": ""
+    },
+    {
+      "ko": "오늘",
+      "en": "today",
+      "note": ""
+    },
+    {
+      "ko": "앉다",
+      "en": "to sit",
+      "note": "batchim ㄵ"
+    },
+    {
+      "ko": "많다",
+      "en": "to be many/much",
+      "note": "batchim ㄶ"
+    },
+    {
+      "ko": "괜찮다",
+      "en": "to be okay/fine",
+      "note": "batchim ㄶ"
+    },
+    {
+      "ko": "시간",
+      "en": "time",
+      "note": ""
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say 'It's July 4th' in Korean.",
+      "a": "칠월 사 일이에요."
+    },
+    {
+      "q": "Say 'My birthday is June 15th' in Korean.",
+      "a": "제 생일은 유월 십오 일이에요."
+    },
+    {
+      "q": "Translate: 오늘은 몇 월 며칠이에요?",
+      "a": "What's today's date?"
+    },
+    {
+      "q": "Translate: 시간이 많아요.",
+      "a": "There's a lot of time."
+    },
+    {
+      "q": "Fill in the blank: 여기 ___으세요 (Please sit here).",
+      "a": "앉"
+    },
+    {
+      "q": "How is 괜찮아요 pronounced?",
+      "a": "[괜차나요 gwaen-cha-na-yo]"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "'June' (6월) in Korean is:",
+      "options": [
+        "육월",
+        "유월",
+        "뉵월",
+        "유얼"
+      ],
+      "answer": 1,
+      "explain": "6월 is irregular: 유월, not 육월."
+    },
+    {
+      "q": "'October' (10월) in Korean is:",
+      "options": [
+        "십월",
+        "시월",
+        "십일월",
+        "시얼"
+      ],
+      "answer": 1,
+      "explain": "10월 is irregular: 시월, not 십월."
+    },
+    {
+      "q": "Which number system is used for 년/월/일 dates?",
+      "options": [
+        "Native Korean (하나, 둘...)",
+        "Sino-Korean (일, 이, 삼...)",
+        "Counters only",
+        "Mixed freely"
+      ],
+      "answer": 1,
+      "explain": "Dates always use Sino-Korean numbers."
+    },
+    {
+      "q": "시간이 많아요 means:",
+      "options": [
+        "There's no time",
+        "There's a lot of time",
+        "Time flies fast",
+        "It's exactly on time"
+      ],
+      "answer": 1,
+      "explain": "많다 = 'to be many/much', so 시간이 많아요 = 'There's plenty of time.'"
+    },
+    {
+      "q": "앉으세요 means:",
+      "options": [
+        "Please stand",
+        "Please sit",
+        "Please wait",
+        "Please read"
+      ],
+      "answer": 1,
+      "explain": "앉다 = 'to sit'; -으세요 is a polite command ending, so 앉으세요 = 'Please sit.'"
+    }
+  ]
+}
 ];
