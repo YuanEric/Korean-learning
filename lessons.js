@@ -2967,5 +2967,202 @@ const LESSONS = [
       "explain": "앉다 = 'to sit'; -으세요 is a polite command ending, so 앉으세요 = 'Please sit.'"
     }
   ]
+},
+{
+  "day": 17,
+  "phase": 1,
+  "title": "Days of the Week (요일) + 겹받침 ㄼ/ㅀ (넓다, 싫다)",
+  "focus": "Name the seven days of the week with 요일 and use the time particle 에, while learning two more double-batchim syllables.",
+  "hangul": {
+    "intro": "Two more 겹받침 (double batchim) pairs: ㄼ (as in 넓다) and ㅀ (as in 싫다). Before a CONSONANT, ㄼ usually surfaces as ㄹ (and tenses what follows), while ㅀ surfaces as ㅎ, which combines with a following ㄷ/ㄱ/ㅈ to make an aspirated sound — just like ㄶ did in an earlier lesson. Before a VOWEL, both consonants of ㄼ can link and be heard, while the ㅎ of ㅀ usually disappears and only ㄹ carries over.",
+    "items": [
+      {
+        "char": "넓다",
+        "sound": "neolb-da → [널따 neol-tta]",
+        "note": "'to be wide/spacious'; batchim ㄼ → only ㄹ is pronounced before a consonant, and it tenses the following ㄷ"
+      },
+      {
+        "char": "싫다",
+        "sound": "silh-da → [실타 sil-ta]",
+        "note": "'to dislike'; batchim ㅀ → the ㅎ combines with ㄷ to form the aspirated ㅌ"
+      },
+      {
+        "char": "앓다",
+        "sound": "alh-da → [알타 al-ta]",
+        "note": "'to be sick/ail'; same ㅀ + ㄷ → ㅌ pattern as 싫다"
+      }
+    ],
+    "reading": [
+      {
+        "block": "방이 넓어요",
+        "breakdown": "넓 + 어요: before a vowel, both letters of ㄼ can link forward, giving [널버요 neol-beo-yo], 'The room is spacious.'"
+      },
+      {
+        "block": "저는 커피를 싫어해요",
+        "breakdown": "싫 + 어해요: before a vowel, the ㅎ of ㅀ is silent and only ㄹ carries over, giving [시러해요 si-reo-hae-yo], 'I dislike coffee.'"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "요일 — days of the week + the time particle 에",
+    "explanation": "Each day of the week is a Sino-Korean element + 요일 ('day'): 월(moon)/화(fire)/수(water)/목(wood)/금(gold)/토(earth)/일(sun) + 요일. To ask 'what day of the week', use 무슨 요일이에요? ('what day is it?' — different from 며칠, which asks the date). To say something happens ON a day, attach the time particle 에 right after 요일: 월요일에 ('on Monday'). 에 is not used with 오늘/내일/어제 (today/tomorrow/yesterday), only with specific named days, dates, and times.",
+    "examples": [
+      {
+        "ko": "오늘 무슨 요일이에요?",
+        "en": "What day of the week is it today?"
+      },
+      {
+        "ko": "오늘은 금요일이에요.",
+        "en": "Today is Friday."
+      },
+      {
+        "ko": "월요일에 학교에 가요.",
+        "en": "I go to school on Monday."
+      },
+      {
+        "ko": "저는 이 방이 넓어서 좋아요.",
+        "en": "I like this room because it's spacious."
+      },
+      {
+        "ko": "저는 매운 음식을 싫어해요.",
+        "en": "I dislike spicy food."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "월요일",
+      "en": "Monday",
+      "note": ""
+    },
+    {
+      "ko": "화요일",
+      "en": "Tuesday",
+      "note": ""
+    },
+    {
+      "ko": "수요일",
+      "en": "Wednesday",
+      "note": ""
+    },
+    {
+      "ko": "목요일",
+      "en": "Thursday",
+      "note": ""
+    },
+    {
+      "ko": "금요일",
+      "en": "Friday",
+      "note": ""
+    },
+    {
+      "ko": "토요일",
+      "en": "Saturday",
+      "note": ""
+    },
+    {
+      "ko": "일요일",
+      "en": "Sunday",
+      "note": ""
+    },
+    {
+      "ko": "무슨 요일",
+      "en": "what day (of the week)",
+      "note": "different from 며칠 (date)"
+    },
+    {
+      "ko": "넓다",
+      "en": "to be wide/spacious",
+      "note": "batchim ㄼ"
+    },
+    {
+      "ko": "싫다",
+      "en": "to dislike",
+      "note": "batchim ㅀ; 싫어하다 = 'to dislike (something)'"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say 'Today is Friday' in Korean.",
+      "a": "오늘은 금요일이에요."
+    },
+    {
+      "q": "Say 'I go to school on Monday' in Korean.",
+      "a": "월요일에 학교에 가요."
+    },
+    {
+      "q": "Translate: 오늘 무슨 요일이에요?",
+      "a": "What day of the week is it today?"
+    },
+    {
+      "q": "Translate: 저는 매운 음식을 싫어해요.",
+      "a": "I dislike spicy food."
+    },
+    {
+      "q": "Fill in the blank: 방이 ___어요 (The room is spacious).",
+      "a": "넓"
+    },
+    {
+      "q": "How is 싫어해요 pronounced?",
+      "a": "[시러해요 si-reo-hae-yo]"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "'Wednesday' in Korean is:",
+      "options": [
+        "화요일",
+        "수요일",
+        "목요일",
+        "토요일"
+      ],
+      "answer": 1,
+      "explain": "수 (water) + 요일 = 수요일, Wednesday."
+    },
+    {
+      "q": "Which particle attaches to 요일 to mean 'on [that day]'?",
+      "options": [
+        "은/는",
+        "이/가",
+        "에",
+        "을/를"
+      ],
+      "answer": 2,
+      "explain": "에 marks a specific point in time: 월요일에 = 'on Monday.'"
+    },
+    {
+      "q": "'What day of the week is it?' is:",
+      "options": [
+        "며칠이에요?",
+        "몇 시예요?",
+        "무슨 요일이에요?",
+        "무엇이에요?"
+      ],
+      "answer": 2,
+      "explain": "무슨 요일이에요? asks for the day of the week; 며칠 asks for the date."
+    },
+    {
+      "q": "넓어요 (before a vowel) is pronounced:",
+      "options": [
+        "[너버요]",
+        "[널버요]",
+        "[널꺼요]",
+        "[넙어요]"
+      ],
+      "answer": 1,
+      "explain": "Before a vowel, both letters of ㄼ can link, giving [널버요 neol-beo-yo]."
+    },
+    {
+      "q": "싫어해요 means:",
+      "options": [
+        "I like it",
+        "I dislike it",
+        "I don't have it",
+        "I read it"
+      ],
+      "answer": 1,
+      "explain": "싫어하다 = 'to dislike'; 싫어해요 is its polite present form."
+    }
+  ]
 }
 ];
