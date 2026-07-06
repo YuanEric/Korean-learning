@@ -3164,5 +3164,197 @@ const LESSONS = [
       "explain": "싫어하다 = 'to dislike'; 싫어해요 is its polite present form."
     }
   ]
+},
+{
+  "day": 18,
+  "phase": 1,
+  "title": "겹받침 ㄻ (닮다/젊다) + the Location Particle 에서",
+  "focus": "Learn the double batchim ㄻ and contrast 에 (destination/existence) with 에서 (location of an action), rounding off the core Hangul lessons.",
+  "hangul": {
+    "intro": "One more 겹받침 (double batchim): ㄻ, made of ㄹ+ㅁ. Before a CONSONANT, only ㅁ is pronounced and it tenses the following consonant, just like the other double batchim you've studied. Before a VOWEL, both letters link forward: ㄹ closes the first syllable and ㅁ opens the next one.",
+    "items": [
+      {
+        "char": "닮다",
+        "sound": "dalm-da → [담따 dam-tta]",
+        "note": "'to resemble'; batchim ㄻ → only ㅁ is pronounced before a consonant, and it tenses the following ㄷ"
+      },
+      {
+        "char": "젊다",
+        "sound": "jeolm-da → [점따 jeom-tta]",
+        "note": "'to be young'; same ㄻ pattern as 닮다"
+      },
+      {
+        "char": "삶다",
+        "sound": "salm-da → [삼따 sam-tta]",
+        "note": "'to boil'; same ㄻ pattern again — useful for cooking vocabulary later"
+      }
+    ],
+    "reading": [
+      {
+        "block": "저는 엄마를 닮았어요",
+        "breakdown": "닮 + 았어요: before a vowel, both letters of ㄻ link forward, giving [달마써요 dal-ma-sseo-yo], 'I resemble my mom.'"
+      },
+      {
+        "block": "그는 아직 젊어요",
+        "breakdown": "젊 + 어요: before a vowel, ㄹ closes the first syllable and ㅁ opens the next, giving [절머요 jeol-meo-yo], 'He is still young.'"
+      }
+    ]
+  },
+  "grammar": {
+    "point": "에 vs 에서 — existence/destination vs. location of an action",
+    "explanation": "You already know 에 for destinations (학교에 가요) and for where something simply exists or is located (집에 있어요). 에서 marks the location WHERE AN ACTION happens — used with action verbs like 먹다, 공부하다, 일하다, 만나다, 읽다. Rule of thumb: 있다/없다 and verbs of motion toward a place (가다/오다) usually pair with 에; almost every other action verb pairs with 에서. Compare: 학교에 가요 (I go TO school) vs 학교에서 공부해요 (I study AT school).",
+    "examples": [
+      {
+        "ko": "저는 집에 있어요.",
+        "en": "I am at home."
+      },
+      {
+        "ko": "저는 집에서 밥을 먹어요.",
+        "en": "I eat (a meal) at home."
+      },
+      {
+        "ko": "도서관에서 책을 읽어요.",
+        "en": "I read a book at the library."
+      },
+      {
+        "ko": "친구를 카페에서 만나요.",
+        "en": "I meet my friend at the cafe."
+      },
+      {
+        "ko": "그는 아직 젊어요.",
+        "en": "He is still young."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "도서관",
+      "en": "library",
+      "note": ""
+    },
+    {
+      "ko": "회사",
+      "en": "company / office",
+      "note": "회사에서 일해요 = 'I work at the office'"
+    },
+    {
+      "ko": "카페",
+      "en": "cafe",
+      "note": ""
+    },
+    {
+      "ko": "공부하다",
+      "en": "to study",
+      "note": ""
+    },
+    {
+      "ko": "일하다",
+      "en": "to work",
+      "note": ""
+    },
+    {
+      "ko": "만나다",
+      "en": "to meet",
+      "note": ""
+    },
+    {
+      "ko": "읽다",
+      "en": "to read",
+      "note": "review from Day 15"
+    },
+    {
+      "ko": "닮다",
+      "en": "to resemble",
+      "note": "batchim ㄻ"
+    },
+    {
+      "ko": "젊다",
+      "en": "to be young",
+      "note": "batchim ㄻ; opposite of 늙다 (to be old)"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say 'I study at the library' in Korean.",
+      "a": "저는 도서관에서 공부해요."
+    },
+    {
+      "q": "Say 'I work at the company/office' in Korean.",
+      "a": "저는 회사에서 일해요."
+    },
+    {
+      "q": "Fill in the blank with 에 or 에서: 저는 집__ 있어요.",
+      "a": "에"
+    },
+    {
+      "q": "Fill in the blank with 에 or 에서: 저는 집__ 밥을 먹어요.",
+      "a": "에서"
+    },
+    {
+      "q": "Translate: 친구를 카페에서 만나요.",
+      "a": "I meet my friend at the cafe."
+    },
+    {
+      "q": "How is 닮았어요 pronounced?",
+      "a": "[달마써요 dal-ma-sseo-yo]"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which particle fits: 도서관___ 책을 읽어요 (I read a book AT the library)?",
+      "options": [
+        "은/는",
+        "에",
+        "에서",
+        "을/를"
+      ],
+      "answer": 2,
+      "explain": "에서 marks the location where an action (reading) takes place."
+    },
+    {
+      "q": "Which particle fits: 학교___ 가요 (I go TO school)?",
+      "options": [
+        "에",
+        "에서",
+        "이/가",
+        "도"
+      ],
+      "answer": 0,
+      "explain": "에 marks the destination of motion verbs like 가다/오다."
+    },
+    {
+      "q": "젊다 means:",
+      "options": [
+        "to resemble",
+        "to be young",
+        "to boil",
+        "to read"
+      ],
+      "answer": 1,
+      "explain": "젊다 = 'to be young'; its opposite is 늙다 ('to be old')."
+    },
+    {
+      "q": "닮아요 (before a vowel) is pronounced:",
+      "options": [
+        "[다마요]",
+        "[달마요]",
+        "[담아요]",
+        "[달까요]"
+      ],
+      "answer": 1,
+      "explain": "Before a vowel, both letters of ㄻ link forward: ㄹ closes the first syllable, ㅁ opens the next, giving [달마요]."
+    },
+    {
+      "q": "Which sentence is correct?",
+      "options": [
+        "저는 회사에 일해요.",
+        "저는 회사에서 일해요.",
+        "저는 회사를 일해요.",
+        "저는 회사는 일해요."
+      ],
+      "answer": 1,
+      "explain": "일하다 (to work) is an action verb, so it takes 에서: 회사에서 일해요, 'I work at the office.'"
+    }
+  ]
 }
 ];
