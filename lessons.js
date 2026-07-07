@@ -3356,5 +3356,162 @@ const LESSONS = [
       "explain": "일하다 (to work) is an action verb, so it takes 에서: 회사에서 일해요, 'I work at the office.'"
     }
   ]
+},
+{
+  "day": 19,
+  "phase": 1,
+  "title": "단위명사 (Counters): 개/명/마리/잔 + Number Contraction",
+  "focus": "Learn common Korean counters and the special contracted forms of native numbers (하나→한, 둘→두, 셋→세, 넷→네, 스물→스무) used right before them.",
+  "grammar": {
+    "point": "Noun + Number + Counter (no particle needed)",
+    "explanation": "To count things in Korean, the pattern is [Noun] + [Native Number] + [Counter], with no particle between them: 사과 세 개 (three apples). Counters change depending on what's being counted — 개 for general objects, 명 for people, 마리 for animals, 잔 for cups/glasses of a drink. Crucially, when a native number directly precedes a counter, four of them contract: 하나→한, 둘→두, 셋→세, 넷→네, and 스물→스무 (twenty). You already used this contraction for age and o'clock (한 살, 두 시) back in Day 14 — now you'll apply the same rule to everyday objects, people, and animals.",
+    "examples": [
+      {
+        "ko": "사과 한 개 주세요.",
+        "en": "Please give me one apple."
+      },
+      {
+        "ko": "커피 두 잔 마셨어요.",
+        "en": "I drank two cups of coffee."
+      },
+      {
+        "ko": "친구가 세 명 있어요.",
+        "en": "I have three friends."
+      },
+      {
+        "ko": "강아지가 네 마리 있어요.",
+        "en": "There are four puppies."
+      },
+      {
+        "ko": "책 스무 권을 읽고 싶어요.",
+        "en": "I want to read twenty books."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "개",
+      "en": "counter for general objects",
+      "note": "사과 한 개 = one apple"
+    },
+    {
+      "ko": "명",
+      "en": "counter for people",
+      "note": "친구 세 명 = three friends"
+    },
+    {
+      "ko": "마리",
+      "en": "counter for animals",
+      "note": "강아지 네 마리 = four puppies"
+    },
+    {
+      "ko": "잔",
+      "en": "counter for cups/glasses",
+      "note": "커피 두 잔 = two cups of coffee"
+    },
+    {
+      "ko": "권",
+      "en": "counter for bound books",
+      "note": "책 스무 권 = twenty books"
+    },
+    {
+      "ko": "사과",
+      "en": "apple",
+      "note": ""
+    },
+    {
+      "ko": "강아지",
+      "en": "puppy",
+      "note": ""
+    },
+    {
+      "ko": "주세요",
+      "en": "please give me (X)",
+      "note": "Noun + 주세요; very common in shops and cafes"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say 'Please give me one apple' in Korean.",
+      "a": "사과 한 개 주세요."
+    },
+    {
+      "q": "Say 'I have three friends' in Korean.",
+      "a": "친구가 세 명 있어요."
+    },
+    {
+      "q": "Fill in the contracted number: 강아지가 __ 마리 있어요 (four puppies).",
+      "a": "네"
+    },
+    {
+      "q": "Fill in the contracted number: 책 __ 권을 읽고 싶어요 (twenty books).",
+      "a": "스무"
+    },
+    {
+      "q": "Translate: 커피 두 잔 마셨어요.",
+      "a": "I drank two cups of coffee."
+    },
+    {
+      "q": "Which counter fits: 강아지 네 ___ (puppies)?",
+      "a": "마리"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which counter is used for people?",
+      "options": [
+        "개",
+        "명",
+        "마리",
+        "잔"
+      ],
+      "answer": 1,
+      "explain": "명 is the counter for counting people, e.g. 친구가 세 명 있어요."
+    },
+    {
+      "q": "What is the contracted form of 넷 (four) before a counter?",
+      "options": [
+        "네",
+        "너",
+        "넉",
+        "네다"
+      ],
+      "answer": 0,
+      "explain": "넷 contracts to 네 before a counter, as in 네 마리 (four animals)."
+    },
+    {
+      "q": "Complete: 사과 ___ 개 주세요 (one apple, please).",
+      "options": [
+        "하나",
+        "한",
+        "일",
+        "첫"
+      ],
+      "answer": 1,
+      "explain": "하나 contracts to 한 directly before a counter: 한 개."
+    },
+    {
+      "q": "Which counter fits with coffee (커피)?",
+      "options": [
+        "명",
+        "마리",
+        "잔",
+        "권"
+      ],
+      "answer": 2,
+      "explain": "잔 is the counter for cups/glasses of a drink: 커피 두 잔."
+    },
+    {
+      "q": "20 books is:",
+      "options": [
+        "책 이십 권",
+        "책 스물 권",
+        "책 스무 권",
+        "책 스무 개"
+      ],
+      "answer": 2,
+      "explain": "스물 (twenty) contracts to 스무 before a counter, and 권 is the counter for bound books: 책 스무 권."
+    }
+  ]
 }
 ];
