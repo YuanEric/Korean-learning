@@ -3513,5 +3513,162 @@ const LESSONS = [
       "explain": "스물 (twenty) contracts to 스무 before a counter, and 권 is the counter for bound books: 책 스무 권."
     }
   ]
+},
+{
+  "day": 20,
+  "phase": 1,
+  "title": "Connecting Sentences: 그리고/그래서/그런데/그러면",
+  "focus": "Learn four everyday connecting words that link two full sentences — and, so, but, and then — to close out Phase 1 by combining everything you've learned so far into longer speech.",
+  "grammar": {
+    "point": "그리고 (and) / 그래서 (so, therefore) / 그런데 (but, by the way) / 그러면 (then, in that case)",
+    "explanation": "So far every sentence you've made has stood alone. These four words let you connect two separate sentences into a flowing thought, always placed at the START of the second sentence (never in the middle like English 'and'). 그리고 simply adds one sentence to another ('and, also'). 그래서 shows the second sentence is a RESULT of the first ('so, therefore'). 그런데 shows a contrast OR a topic shift ('but' / 'by the way') — it's softer than a strong 'but'. 그러면 (often shortened to 그럼 in speech) means 'if that's the case, then...', setting up a conclusion or suggestion based on what was just said. Because each of these connects two complete, independently-conjugated sentences, you can immediately use them with all the polite present/past forms you already know.",
+    "examples": [
+      {
+        "ko": "저는 학생이에요. 그리고 회사에서 일해요.",
+        "en": "I'm a student. And I work at a company."
+      },
+      {
+        "ko": "배가 고파요. 그래서 밥을 먹어요.",
+        "en": "I'm hungry. So I'm eating (a meal)."
+      },
+      {
+        "ko": "저는 커피를 좋아해요. 그런데 오늘은 안 마셨어요.",
+        "en": "I like coffee. But I didn't drink it today."
+      },
+      {
+        "ko": "오늘 시간이 있어요. 그러면 같이 도서관에 가요.",
+        "en": "I have time today. Then let's go to the library together."
+      },
+      {
+        "ko": "비가 왔어요. 그래서 집에 있었어요.",
+        "en": "It rained. So I stayed home."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "그리고",
+      "en": "and, also",
+      "note": "adds a second, related sentence"
+    },
+    {
+      "ko": "그래서",
+      "en": "so, therefore",
+      "note": "second sentence is a result of the first"
+    },
+    {
+      "ko": "그런데",
+      "en": "but; by the way",
+      "note": "softer contrast or topic shift"
+    },
+    {
+      "ko": "그러면",
+      "en": "then, in that case",
+      "note": "often shortened to 그럼 in casual speech"
+    },
+    {
+      "ko": "좋아하다",
+      "en": "to like",
+      "note": "저는 커피를 좋아해요 = 'I like coffee'"
+    },
+    {
+      "ko": "배(가) 고프다",
+      "en": "to be hungry",
+      "note": "배가 고파요 = 'I'm hungry'"
+    },
+    {
+      "ko": "비가 오다",
+      "en": "to rain",
+      "note": "literally 'rain comes'; 비가 왔어요 = 'it rained'"
+    },
+    {
+      "ko": "같이",
+      "en": "together",
+      "note": "같이 가요 = 'let's go together'"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Join with 그리고: 저는 학생이에요. / 저는 회사에서 일해요.",
+      "a": "저는 학생이에요. 그리고 회사에서 일해요."
+    },
+    {
+      "q": "Join with 그래서: 배가 고파요. / 밥을 먹어요.",
+      "a": "배가 고파요. 그래서 밥을 먹어요."
+    },
+    {
+      "q": "Join with 그런데: 저는 커피를 좋아해요. / 오늘은 안 마셨어요.",
+      "a": "저는 커피를 좋아해요. 그런데 오늘은 안 마셨어요."
+    },
+    {
+      "q": "Join with 그러면: 시간이 있어요. / 같이 도서관에 가요.",
+      "a": "시간이 있어요. 그러면 같이 도서관에 가요."
+    },
+    {
+      "q": "Translate: 비가 왔어요. 그래서 집에 있었어요.",
+      "a": "It rained, so I stayed home."
+    },
+    {
+      "q": "Which connector shows a RESULT — 그리고 or 그래서?",
+      "a": "그래서"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which connector means 'so, therefore' (shows a result)?",
+      "options": [
+        "그리고",
+        "그래서",
+        "그런데",
+        "그러면"
+      ],
+      "answer": 1,
+      "explain": "그래서 links a sentence that is the result of the previous one."
+    },
+    {
+      "q": "배가 고파요. ___ 밥을 먹어요. Which word fits?",
+      "options": [
+        "그런데",
+        "그래서",
+        "그리고",
+        "그러면"
+      ],
+      "answer": 1,
+      "explain": "Eating because you're hungry is a result, so 그래서 ('so') is correct."
+    },
+    {
+      "q": "저는 커피를 좋아해요. ___ 오늘은 안 마셨어요. Which word fits?",
+      "options": [
+        "그리고",
+        "그래서",
+        "그런데",
+        "그러면"
+      ],
+      "answer": 2,
+      "explain": "그런데 marks the contrast between liking coffee and not drinking it today."
+    },
+    {
+      "q": "좋아하다 means:",
+      "options": [
+        "to be hungry",
+        "to like",
+        "to rain",
+        "to work"
+      ],
+      "answer": 1,
+      "explain": "좋아하다 = 'to like', as in 커피를 좋아해요 ('I like coffee')."
+    },
+    {
+      "q": "Where does a connector like 그리고 go?",
+      "options": [
+        "In the middle of one sentence",
+        "At the start of the second sentence",
+        "At the end of the second sentence",
+        "Attached to the verb stem"
+      ],
+      "answer": 1,
+      "explain": "Unlike English 'and', these words start the second full sentence rather than sitting inside it."
+    }
+  ]
 }
 ];
