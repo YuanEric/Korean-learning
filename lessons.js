@@ -3670,5 +3670,162 @@ const LESSONS = [
       "explain": "Unlike English 'and', these words start the second full sentence rather than sitting inside it."
     }
   ]
+},
+{
+  "day": 21,
+  "phase": 2,
+  "title": "Topic vs Subject: 은/는 and 이/가",
+  "focus": "Learn the crucial difference between the topic particle 은/는 and the subject particle 이/가 — when to mark what a sentence is 'about' versus what specifically 'does' or 'is' something.",
+  "grammar": {
+    "point": "Topic particle 은/는 vs Subject particle 이/가",
+    "explanation": "Korean marks nouns with particles that show their role. You already met 은/는 lightly; now compare it with 이/가. Attachment by final sound: after a consonant use 은 / 이, after a vowel use 는 / 가 (책은/책이, 저는/제가). The topic particle 은/는 sets the overall TOPIC — 'as for X…' — often for general statements, contrasts, or things already known. The subject particle 이/가 points to the SUBJECT that specifically does or is something, often introducing new information or answering 'who/what?'. Compare 저는 학생이에요 ('As for me, I'm a student' — general self-intro) with 누가 학생이에요? — 제가 학생이에요 ('Who is a student? — I am' — 가 pinpoints the answer). With descriptive verbs, new/noticed information usually takes 이/가: 날씨가 좋아요 ('the weather is nice'). Contrast uses 은/는: 커피는 좋아해요, 그런데 차는 안 좋아해요 ('I like coffee, but tea I don't'). Note 저 + 가 becomes 제가, and 나 + 가 becomes 내가.",
+    "examples": [
+      {
+        "ko": "저는 한국 사람이에요.",
+        "en": "As for me, I'm Korean. (topic — self-introduction)"
+      },
+      {
+        "ko": "누가 왔어요? — 친구가 왔어요.",
+        "en": "Who came? — A friend came. (가 answers 'who')"
+      },
+      {
+        "ko": "오늘은 날씨가 좋아요.",
+        "en": "As for today, the weather is nice. (은 = topic, 가 = subject)"
+      },
+      {
+        "ko": "커피는 좋아해요. 그런데 차는 안 좋아해요.",
+        "en": "Coffee I like. But tea I don't. (은/는 for contrast)"
+      },
+      {
+        "ko": "고양이가 있어요.",
+        "en": "There is a cat. (가 introduces new information)"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "은/는",
+      "en": "topic particle",
+      "note": "은 after consonant, 는 after vowel; 'as for…'"
+    },
+    {
+      "ko": "이/가",
+      "en": "subject particle",
+      "note": "이 after consonant, 가 after vowel; marks the doer/subject"
+    },
+    {
+      "ko": "제가",
+      "en": "I (subject)",
+      "note": "저 + 가 → 제가; polite 'I' as a subject"
+    },
+    {
+      "ko": "누가",
+      "en": "who (subject)",
+      "note": "누구 + 가 → 누가; 'who' as the subject of a question"
+    },
+    {
+      "ko": "날씨",
+      "en": "weather",
+      "note": "날씨가 좋아요 = 'the weather is nice'"
+    },
+    {
+      "ko": "친구",
+      "en": "friend",
+      "note": "친구가 왔어요 = 'a friend came'"
+    },
+    {
+      "ko": "고양이",
+      "en": "cat",
+      "note": "고양이가 있어요 = 'there is a cat'"
+    },
+    {
+      "ko": "사람",
+      "en": "person",
+      "note": "한국 사람 = 'Korean (person)'"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Add the right subject particle: 친구__ 왔어요. (a friend came)",
+      "a": "친구가 왔어요."
+    },
+    {
+      "q": "Add the right subject particle: 책__ 있어요. (there is a book)",
+      "a": "책이 있어요."
+    },
+    {
+      "q": "Answer 'Who is a student?' with 제가: 누가 학생이에요?",
+      "a": "제가 학생이에요."
+    },
+    {
+      "q": "Fill in with contrast particles: 커피__ 좋아해요, 그런데 차__ 안 좋아해요.",
+      "a": "커피는 좋아해요, 그런데 차는 안 좋아해요."
+    },
+    {
+      "q": "Translate: 오늘은 날씨가 좋아요.",
+      "a": "As for today, the weather is nice."
+    },
+    {
+      "q": "Which particle marks the general TOPIC of a sentence — 은/는 or 이/가?",
+      "a": "은/는"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which particle set marks the SUBJECT (the doer), often introducing new information?",
+      "options": [
+        "은/는",
+        "이/가",
+        "을/를",
+        "에서"
+      ],
+      "answer": 1,
+      "explain": "이/가 is the subject particle; it points to the specific subject and often marks new information."
+    },
+    {
+      "q": "친구___ 왔어요. (A friend came.) Which fits?",
+      "options": [
+        "은",
+        "는",
+        "가",
+        "이"
+      ],
+      "answer": 2,
+      "explain": "친구 ends in a vowel, so the subject particle is 가: 친구가 왔어요."
+    },
+    {
+      "q": "저 + 가 (I, as a subject) becomes:",
+      "options": [
+        "저가",
+        "제가",
+        "저는",
+        "내가"
+      ],
+      "answer": 1,
+      "explain": "저 + 가 contracts to 제가, the polite subject form of 'I'."
+    },
+    {
+      "q": "커피___ 좋아해요, 그런데 차___ 안 좋아해요. Which particle fills both blanks (contrast)?",
+      "options": [
+        "이/가",
+        "은/는",
+        "을/를",
+        "에"
+      ],
+      "answer": 1,
+      "explain": "Contrast between two topics uses 은/는: 커피는 … 차는 …."
+    },
+    {
+      "q": "누가 왔어요? Here 누가 comes from:",
+      "options": [
+        "누구 + 는",
+        "누구 + 가",
+        "누구 + 을",
+        "누구 + 에"
+      ],
+      "answer": 1,
+      "explain": "누구 + 가 contracts to 누가, 'who' as the subject of the question."
+    }
+  ]
 }
 ];
