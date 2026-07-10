@@ -3827,5 +3827,167 @@ const LESSONS = [
       "explain": "누구 + 가 contracts to 누가, 'who' as the subject of the question."
     }
   ]
+},
+{
+  "day": 22,
+  "phase": 2,
+  "title": "The Object Particle 을/를",
+  "focus": "Learn to mark the object of an action verb with 을/를, so you can say what you eat, drink, read, watch, and do — building full subject–object–verb sentences.",
+  "grammar": {
+    "point": "Object particle 을/를 (marking the direct object)",
+    "explanation": "Korean sentence order is Subject–Object–Verb (SOV): the verb always comes last. To mark WHAT receives the action — the direct object — attach the object particle 을/를 to that noun. Attachment by final sound: after a consonant use 을 (밥을, 책을), after a vowel use 를 (커피를, 우유를). So '저는 밥을 먹어요' = 'I eat rice' (subject 저는 + object 밥을 + verb 먹어요). Compare with the subject particle 이/가 from Day 21: 이/가 marks the doer, 을/를 marks the thing acted upon — 고양이가 생선을 먹어요 ('the cat eats fish'). In casual speech the object particle is often dropped (밥 먹어요), but learn to place it correctly first. Only action (transitive) verbs take an object; descriptive verbs like 좋다/예쁘다 do not. Common verbs that take objects: 먹다 (eat), 마시다 (drink), 읽다 (read), 보다 (see/watch), 사다 (buy), 하다 (do).",
+    "examples": [
+      {
+        "ko": "저는 밥을 먹어요.",
+        "en": "I eat rice. (밥 ends in a consonant → 을)"
+      },
+      {
+        "ko": "친구가 커피를 마셔요.",
+        "en": "My friend drinks coffee. (커피 ends in a vowel → 를)"
+      },
+      {
+        "ko": "저는 책을 읽어요.",
+        "en": "I read a book. (책 → 책을)"
+      },
+      {
+        "ko": "동생이 영화를 봐요.",
+        "en": "My younger sibling watches a movie. (영화 → 영화를)"
+      },
+      {
+        "ko": "고양이가 생선을 먹어요.",
+        "en": "The cat eats fish. (가 = subject, 을 = object)"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "을/를",
+      "en": "object particle",
+      "note": "을 after a consonant, 를 after a vowel; marks the direct object"
+    },
+    {
+      "ko": "밥",
+      "en": "rice / meal",
+      "note": "밥을 먹어요 = 'eat a meal'"
+    },
+    {
+      "ko": "마시다",
+      "en": "to drink",
+      "note": "물을 마셔요 = 'drink water'"
+    },
+    {
+      "ko": "읽다",
+      "en": "to read",
+      "note": "책을 읽어요 = 'read a book'; the ㄺ makes it sound like '일거요'"
+    },
+    {
+      "ko": "보다",
+      "en": "to see / watch",
+      "note": "영화를 봐요 = 'watch a movie'"
+    },
+    {
+      "ko": "사다",
+      "en": "to buy",
+      "note": "옷을 사요 = 'buy clothes'"
+    },
+    {
+      "ko": "영화",
+      "en": "movie",
+      "note": "영화를 보다 = 'watch a movie'"
+    },
+    {
+      "ko": "생선",
+      "en": "fish (as food)",
+      "note": "생선을 먹어요 = 'eat fish'"
+    },
+    {
+      "ko": "물",
+      "en": "water",
+      "note": "물을 마셔요 = 'drink water'"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Add the right object particle: 저는 밥__ 먹어요. (I eat rice)",
+      "a": "저는 밥을 먹어요."
+    },
+    {
+      "q": "Add the right object particle: 친구가 커피__ 마셔요. (my friend drinks coffee)",
+      "a": "친구가 커피를 마셔요."
+    },
+    {
+      "q": "Add the right object particle: 저는 책__ 읽어요. (I read a book)",
+      "a": "저는 책을 읽어요."
+    },
+    {
+      "q": "Put in order (SOV): 봐요 / 영화를 / 저는",
+      "a": "저는 영화를 봐요. (I watch a movie.)"
+    },
+    {
+      "q": "Translate to Korean: The cat eats fish.",
+      "a": "고양이가 생선을 먹어요."
+    },
+    {
+      "q": "Which particle marks the direct object — 이/가 or 을/를?",
+      "a": "을/를"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the basic word order of a Korean sentence?",
+      "options": [
+        "Subject–Verb–Object",
+        "Subject–Object–Verb",
+        "Verb–Subject–Object",
+        "Object–Verb–Subject"
+      ],
+      "answer": 1,
+      "explain": "Korean is Subject–Object–Verb (SOV): the verb always comes last."
+    },
+    {
+      "q": "저는 밥___ 먹어요. Which particle fits?",
+      "options": [
+        "를",
+        "을",
+        "이",
+        "가"
+      ],
+      "answer": 1,
+      "explain": "밥 ends in a consonant, so the object particle is 을: 밥을 먹어요."
+    },
+    {
+      "q": "친구가 커피___ 마셔요. Which particle fits?",
+      "options": [
+        "을",
+        "이",
+        "를",
+        "은"
+      ],
+      "answer": 2,
+      "explain": "커피 ends in a vowel, so the object particle is 를: 커피를 마셔요."
+    },
+    {
+      "q": "Which particle marks the DIRECT OBJECT (the thing acted upon)?",
+      "options": [
+        "이/가",
+        "은/는",
+        "을/를",
+        "에서"
+      ],
+      "answer": 2,
+      "explain": "을/를 is the object particle; 이/가 marks the subject and 은/는 the topic."
+    },
+    {
+      "q": "In 고양이가 생선을 먹어요, what role does 생선 play?",
+      "options": [
+        "subject",
+        "object",
+        "topic",
+        "location"
+      ],
+      "answer": 1,
+      "explain": "생선을 carries the object particle 을, so 생선 (fish) is the direct object being eaten."
+    }
+  ]
 }
 ];
