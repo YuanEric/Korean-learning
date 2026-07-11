@@ -3989,5 +3989,162 @@ const LESSONS = [
       "explain": "생선을 carries the object particle 을, so 생선 (fish) is the direct object being eaten."
     }
   ]
+},
+{
+  "day": 23,
+  "phase": 2,
+  "title": "The Topic Particle 은/는",
+  "focus": "Learn the topic particle 은/는 — how it introduces the topic of a sentence, contrasts two things, and differs from the subject particle 이/가.",
+  "grammar": {
+    "point": "Topic particle 은/는 (marking the topic / contrast)",
+    "explanation": "은/는 marks the TOPIC of a sentence — 'as for X…'. Attachment by final sound: after a consonant use 은 (사람은, 이름은), after a vowel use 는 (저는, 우리는). You have already been using 저는 ('as for me') since the first lessons — that is this particle. Two big jobs: (1) TOPIC — it sets what the sentence is about: 저는 학생이에요 ('As for me, I'm a student'). (2) CONTRAST — it highlights a difference between two things: 커피는 좋아요, 그런데 우유는 싫어요 ('Coffee I like, but milk I dislike'). The hard part for learners is 은/는 vs 이/가 (Day 21). 이/가 introduces NEW or specific information and answers 'who/what?' — 누가 왔어요? 친구가 왔어요 ('Who came? A FRIEND came'). 은/는 talks about something already known or sets up contrast — 친구는 집에 있어요 ('As for my friend, he's at home'). A common pattern: first mention with 이/가, then refer back with 은/는. Note 저 + 는 = 저는, 나 + 는 = 나는.",
+    "examples": [
+      {
+        "ko": "저는 한국 사람이에요.",
+        "en": "As for me, I'm Korean. (저 ends in a vowel → 는)"
+      },
+      {
+        "ko": "이름은 민수예요.",
+        "en": "As for the name, it's Minsu. (이름 ends in a consonant → 은)"
+      },
+      {
+        "ko": "커피는 좋아요. 우유는 싫어요.",
+        "en": "Coffee, I like. Milk, I don't. (contrast between two topics)"
+      },
+      {
+        "ko": "오늘은 바빠요.",
+        "en": "As for today, I'm busy. (오늘 → 오늘은)"
+      },
+      {
+        "ko": "누가 왔어요? — 친구가 왔어요.",
+        "en": "Who came? — A friend came. (new info uses 이/가, not 은/는)"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "은/는",
+      "en": "topic particle",
+      "note": "은 after a consonant, 는 after a vowel; 'as for…'"
+    },
+    {
+      "ko": "이름",
+      "en": "name",
+      "note": "이름은 …예요 = 'the name is …'"
+    },
+    {
+      "ko": "오늘",
+      "en": "today",
+      "note": "오늘은 = 'as for today'"
+    },
+    {
+      "ko": "우유",
+      "en": "milk",
+      "note": "우유는 = 'as for milk'; ends in a vowel → 는"
+    },
+    {
+      "ko": "바쁘다",
+      "en": "to be busy",
+      "note": "descriptive verb; 바빠요 in polite form"
+    },
+    {
+      "ko": "그런데",
+      "en": "but / by the way",
+      "note": "connects contrasting sentences"
+    },
+    {
+      "ko": "사람",
+      "en": "person",
+      "note": "사람은 = 'as for the person'; ends in consonant → 은"
+    },
+    {
+      "ko": "싫다",
+      "en": "to dislike / not want",
+      "note": "opposite of 좋다; 싫어요 in polite form"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Add the right topic particle: 저__ 학생이에요. (As for me, I'm a student)",
+      "a": "저는 학생이에요."
+    },
+    {
+      "q": "Add the right topic particle: 이름__ 민수예요. (As for the name, it's Minsu)",
+      "a": "이름은 민수예요."
+    },
+    {
+      "q": "Add the right topic particle: 오늘__ 바빠요. (As for today, I'm busy)",
+      "a": "오늘은 바빠요."
+    },
+    {
+      "q": "Fill the contrast: 커피__ 좋아요, 그런데 우유__ 싫어요.",
+      "a": "커피는 좋아요, 그런데 우유는 싫어요."
+    },
+    {
+      "q": "Which particle answers 'Who came?' — 친구__ 왔어요?",
+      "a": "친구가 왔어요. (new info → 이/가)"
+    },
+    {
+      "q": "Translate: As for my friend, he's at home. (친구, 집, 있다)",
+      "a": "친구는 집에 있어요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "저___ 한국 사람이에요. Which topic particle fits?",
+      "options": [
+        "은",
+        "는",
+        "을",
+        "가"
+      ],
+      "answer": 1,
+      "explain": "저 ends in a vowel, so the topic particle is 는: 저는."
+    },
+    {
+      "q": "이름___ 민수예요. Which topic particle fits?",
+      "options": [
+        "는",
+        "를",
+        "은",
+        "이"
+      ],
+      "answer": 2,
+      "explain": "이름 ends in a consonant, so the topic particle is 은: 이름은."
+    },
+    {
+      "q": "What are the TWO main jobs of 은/는?",
+      "options": [
+        "subject and object",
+        "topic and contrast",
+        "location and time",
+        "question and answer"
+      ],
+      "answer": 1,
+      "explain": "은/는 marks the topic ('as for X') and shows contrast between two things."
+    },
+    {
+      "q": "누가 왔어요? Which answer is most natural for brand-new information?",
+      "options": [
+        "친구는 왔어요",
+        "친구가 왔어요",
+        "친구를 왔어요",
+        "친구에 왔어요"
+      ],
+      "answer": 1,
+      "explain": "New/specific information answering 'who?' takes the subject particle 이/가: 친구가 왔어요."
+    },
+    {
+      "q": "In 커피는 좋아요, 우유는 싫어요, why is 은/는 used?",
+      "options": [
+        "to mark the object",
+        "to show location",
+        "to contrast coffee vs milk",
+        "to ask a question"
+      ],
+      "answer": 2,
+      "explain": "The repeated 은/는 sets up a contrast between two topics: coffee vs milk."
+    }
+  ]
 }
 ];
