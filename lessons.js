@@ -4146,5 +4146,168 @@ const LESSONS = [
       "explain": "The repeated 은/는 sets up a contrast between two topics: coffee vs milk."
     }
   ]
+},
+{
+  "day": 24,
+  "phase": 2,
+  "title": "Location Particles 에 and 에서",
+  "focus": "Learn 에 (static location / destination / time) and 에서 (where an action happens / starting point), and how to tell them apart.",
+  "grammar": {
+    "point": "Location particles 에 (at, to, in — location & time) vs 에서 (at, from — action location & origin)",
+    "explanation": "Two particles both translate as 'at/in', but they do different jobs. 에 marks (1) a STATIC location — where something exists or is, used with 있다/없다: 집에 있어요 ('I'm at home'); (2) a DESTINATION — where you go, used with 가다/오다: 학교에 가요 ('I go to school'); and (3) a TIME point: 세 시에 ('at 3 o'clock'), 월요일에 ('on Monday'). 에서 marks (1) the place where an ACTION happens — used with active verbs like eat, study, work: 학교에서 공부해요 ('I study AT school'); and (2) a STARTING point / origin — 'from': 집에서 왔어요 ('I came from home'), 한국에서 왔어요 ('I'm from Korea'). The key test: if the verb is 있다/없다 or a movement verb (가다/오다), use 에. If someone is DOING an action in that place, use 에서. Compare: 도서관에 있어요 ('I'm at the library' — just located there) vs 도서관에서 공부해요 ('I study at the library' — doing something there). 에 attaches directly to the noun regardless of final sound (집에, 학교에); same for 에서 (집에서, 학교에서).",
+    "examples": [
+      {
+        "ko": "지금 집에 있어요.",
+        "en": "I'm at home right now. (static location → 에)"
+      },
+      {
+        "ko": "내일 부산에 가요.",
+        "en": "I'm going to Busan tomorrow. (destination → 에)"
+      },
+      {
+        "ko": "카페에서 커피를 마셔요.",
+        "en": "I drink coffee at the café. (action location → 에서)"
+      },
+      {
+        "ko": "저는 일본에서 왔어요.",
+        "en": "I came from Japan. / I'm from Japan. (origin → 에서)"
+      },
+      {
+        "ko": "일곱 시에 아침을 먹어요.",
+        "en": "I eat breakfast at 7 o'clock. (time → 에)"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "집",
+      "en": "house, home"
+    },
+    {
+      "ko": "학교",
+      "en": "school"
+    },
+    {
+      "ko": "도서관",
+      "en": "library"
+    },
+    {
+      "ko": "회사",
+      "en": "company, workplace"
+    },
+    {
+      "ko": "공부하다",
+      "en": "to study",
+      "note": "공부해요 (polite present)"
+    },
+    {
+      "ko": "일하다",
+      "en": "to work",
+      "note": "일해요"
+    },
+    {
+      "ko": "살다",
+      "en": "to live (reside)",
+      "note": "살아요; 서울에 살아요 = I live in Seoul (에, static)"
+    },
+    {
+      "ko": "오다",
+      "en": "to come",
+      "note": "와요"
+    },
+    {
+      "ko": "가다",
+      "en": "to go",
+      "note": "가요"
+    },
+    {
+      "ko": "만나다",
+      "en": "to meet",
+      "note": "만나요"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Fill in 에 or 에서: 저는 회사___ 일해요.",
+      "a": "에서 — an action (working) happens there → 회사에서 일해요."
+    },
+    {
+      "q": "Fill in 에 or 에서: 고양이가 방___ 있어요.",
+      "a": "에 — 있다 (existence/location) → 방에 있어요 (The cat is in the room)."
+    },
+    {
+      "q": "Fill in 에 or 에서: 세 시___ 친구를 만나요.",
+      "a": "에 — a time point → 세 시에 (at 3 o'clock)."
+    },
+    {
+      "q": "Say 'I'm going to school' in Korean.",
+      "a": "학교에 가요. (destination with 가다 → 에)"
+    },
+    {
+      "q": "Say 'I study at the library' in Korean.",
+      "a": "도서관에서 공부해요. (action location → 에서)"
+    },
+    {
+      "q": "Translate: 저는 한국에서 왔어요.",
+      "a": "I came from Korea. / I'm from Korea. (origin → 에서)"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which is correct: 'I eat lunch at a restaurant'?",
+      "options": [
+        "식당에 점심을 먹어요",
+        "식당에서 점심을 먹어요",
+        "식당를 점심을 먹어요",
+        "식당은 점심을 먹어요"
+      ],
+      "answer": 1,
+      "explain": "Eating is an action happening at the restaurant, so use 에서: 식당에서 점심을 먹어요."
+    },
+    {
+      "q": "Fill the blank: 저는 지금 도서관___ 있어요.",
+      "options": [
+        "에서",
+        "에",
+        "를",
+        "도"
+      ],
+      "answer": 1,
+      "explain": "있다 marks static location, which takes 에: 도서관에 있어요 ('I'm at the library')."
+    },
+    {
+      "q": "What does 저는 미국에서 왔어요 mean?",
+      "options": [
+        "I'm going to America",
+        "I live in America",
+        "I came from America / I'm from America",
+        "I like America"
+      ],
+      "answer": 2,
+      "explain": "에서 here marks origin/starting point with 오다 (to come): 'I came from America.'"
+    },
+    {
+      "q": "Choose the correct particle: '내일 부산___ 가요' (I'm going to Busan tomorrow).",
+      "options": [
+        "에",
+        "에서",
+        "은",
+        "이"
+      ],
+      "answer": 0,
+      "explain": "가다 (to go) takes a destination marked by 에: 부산에 가요."
+    },
+    {
+      "q": "Which sentence correctly uses a time expression?",
+      "options": [
+        "여덟 시에서 일어나요",
+        "여덟 시를 일어나요",
+        "여덟 시에 일어나요",
+        "여덟 시는 일어나요"
+      ],
+      "answer": 2,
+      "explain": "Time points take 에, never 에서: 여덟 시에 일어나요 ('I get up at 8 o'clock')."
+    }
+  ]
 }
 ];
