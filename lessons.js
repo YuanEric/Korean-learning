@@ -4309,5 +4309,166 @@ const LESSONS = [
       "explain": "Time points take 에, never 에서: 여덟 시에 일어나요 ('I get up at 8 o'clock')."
     }
   ]
+},
+{
+  "day": 25,
+  "phase": 2,
+  "title": "Particles 의, 도, and 만 (possessive, 'also', 'only')",
+  "focus": "Round out your particle toolkit: 의 to show possession, 도 for 'also/too', and 만 for 'only/just'.",
+  "grammar": {
+    "point": "의 (possessive 'of/'s'), 도 (also, too — replaces 은/는/이/가/을/를), 만 (only, just)",
+    "explanation": "Three more everyday particles. 의 links two nouns to show possession or belonging, like English 's or 'of': 저의 책 ('my book'), 친구의 집 ('a friend's house'). In speech 의 is pronounced like 에 [e], and 저의/나의 usually shrink to 제/내: 제 책 ('my book'), 내 이름 ('my name'). 도 means 'also / too / even' and REPLACES the subject/topic/object particles (은/는/이/가/을/를) rather than stacking on them: 저도 학생이에요 ('I'm a student too'), 커피도 좋아해요 ('I like coffee too'). 만 means 'only / just' and also replaces 이/가/을/를 (though it can attach after location/other particles): 물만 마셔요 ('I drink only water'), 한 개만 주세요 ('give me just one'). Remember: 도 and 만 knock out the basic subject/object particle — you say 저도, never 저는도.",
+    "examples": [
+      {
+        "ko": "이것은 선생님의 책이에요.",
+        "en": "This is the teacher's book."
+      },
+      {
+        "ko": "제 이름은 민수예요.",
+        "en": "My name is Minsu. (저의 → 제)"
+      },
+      {
+        "ko": "동생도 학교에 가요.",
+        "en": "My younger sibling also goes to school."
+      },
+      {
+        "ko": "저도 한국 음식을 좋아해요.",
+        "en": "I also like Korean food."
+      },
+      {
+        "ko": "커피만 마셔요.",
+        "en": "I drink only coffee."
+      },
+      {
+        "ko": "한 명만 왔어요.",
+        "en": "Only one person came."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "이름",
+      "en": "name",
+      "note": "제 이름 = my name"
+    },
+    {
+      "ko": "동생",
+      "en": "younger sibling",
+      "note": "남동생 (brother), 여동생 (sister)"
+    },
+    {
+      "ko": "선생님",
+      "en": "teacher",
+      "note": "always used with 님 (honorific)"
+    },
+    {
+      "ko": "음식",
+      "en": "food",
+      "note": "한국 음식 = Korean food"
+    },
+    {
+      "ko": "물",
+      "en": "water",
+      "note": ""
+    },
+    {
+      "ko": "명",
+      "en": "counter for people",
+      "note": "한 명, 두 명 = one/two people"
+    },
+    {
+      "ko": "개",
+      "en": "counter for objects",
+      "note": "한 개 = one (thing)"
+    },
+    {
+      "ko": "주세요",
+      "en": "please give (me)",
+      "note": "from 주다 (to give)"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Say 'my book' the natural spoken way (저의 → ?).",
+      "a": "제 책"
+    },
+    {
+      "q": "Translate: 'I like coffee too.' (use 도)",
+      "a": "저도 커피를 좋아해요. (or 커피도 좋아해요)"
+    },
+    {
+      "q": "Translate: 'I drink only water.' (use 만)",
+      "a": "물만 마셔요."
+    },
+    {
+      "q": "Fix the mistake: 저는도 학생이에요.",
+      "a": "저도 학생이에요. (도 replaces 는, don't stack them)"
+    },
+    {
+      "q": "Translate: 'This is my friend's house.' (use 의)",
+      "a": "이것은 제 친구의 집이에요."
+    },
+    {
+      "q": "Translate: 'Please give me just one.' (counter 개)",
+      "a": "한 개만 주세요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which particle means 'also / too'?",
+      "options": [
+        "의",
+        "도",
+        "만",
+        "에서"
+      ],
+      "answer": 1,
+      "explain": "도 means 'also/too' and replaces the subject/object particle."
+    },
+    {
+      "q": "'저의 책' is naturally shortened in speech to:",
+      "options": [
+        "제 책",
+        "저 책",
+        "내의 책",
+        "저도 책"
+      ],
+      "answer": 0,
+      "explain": "저의 contracts to 제, so '제 책' = my book."
+    },
+    {
+      "q": "Choose the correct sentence for 'I drink only water.'",
+      "options": [
+        "물은 마셔요",
+        "물도 마셔요",
+        "물만 마셔요",
+        "물의 마셔요"
+      ],
+      "answer": 2,
+      "explain": "만 means 'only', and it replaces 을/를: 물만 마셔요."
+    },
+    {
+      "q": "What is wrong with '저는도 학생이에요'?",
+      "options": [
+        "도 should be 만",
+        "도 replaces 는, so it should be 저도",
+        "It needs 의",
+        "Nothing is wrong"
+      ],
+      "answer": 1,
+      "explain": "도 replaces the topic particle 는; you cannot stack them. Correct: 저도."
+    },
+    {
+      "q": "Which particle shows possession ('of / 's')?",
+      "options": [
+        "도",
+        "만",
+        "의",
+        "에"
+      ],
+      "answer": 2,
+      "explain": "의 links two nouns to show possession: 친구의 집 = a friend's house."
+    }
+  ]
 }
 ];
