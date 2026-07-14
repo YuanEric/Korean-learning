@@ -4470,5 +4470,147 @@ const LESSONS = [
       "explain": "의 links two nouns to show possession: 친구의 집 = a friend's house."
     }
   ]
+},
+{
+  "day": 26,
+  "phase": 2,
+  "title": "Future Tense: -(으)ㄹ 거예요 (will / be going to)",
+  "focus": "Talk about future plans and intentions with -(으)ㄹ 거예요, the everyday future ending.",
+  "grammar": {
+    "point": "-(으)ㄹ 거예요 (future / intention: 'will do', 'is going to do')",
+    "explanation": "This is the most common way to say the future in polite speech. Take a verb stem (drop 다). If the stem ends in a VOWEL, add -ㄹ 거예요: 가다 → 갈 거예요 ('I will go'), 오다 → 올 거예요 ('I will come'). If the stem ends in a CONSONANT (batchim), add -을 거예요: 먹다 → 먹을 거예요 ('I will eat'), 읽다 → 읽을 거예요 ('I will read'). The ㄹ irregular: if the stem already ends in ㄹ, drop that ㄹ and add -ㄹ 거예요: 살다 → 살 거예요 ('I will live'). In speech 거예요 is often pronounced 꺼예요. This ending expresses both a plan/intention ('I'm going to…') and, with a third person, a guess ('he'll probably…'). The written form is 거예요; you'll also see the casual 거야.",
+    "examples": [
+      {
+        "ko": "내일 친구를 만날 거예요.",
+        "en": "I will meet a friend tomorrow."
+      },
+      {
+        "ko": "주말에 집에서 쉴 거예요.",
+        "en": "I'm going to rest at home on the weekend."
+      },
+      {
+        "ko": "저녁에 한국어를 공부할 거예요.",
+        "en": "I will study Korean in the evening."
+      },
+      {
+        "ko": "그 사람은 안 올 거예요.",
+        "en": "That person probably won't come."
+      },
+      {
+        "ko": "점심에 김밥을 먹을 거예요.",
+        "en": "I'm going to eat gimbap for lunch."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "내일",
+      "en": "tomorrow",
+      "note": "time word; pairs naturally with the future tense"
+    },
+    {
+      "ko": "주말",
+      "en": "weekend",
+      "note": "주(week) + 말(end)"
+    },
+    {
+      "ko": "계획",
+      "en": "plan",
+      "note": "계획이 있어요 = 'I have a plan'"
+    },
+    {
+      "ko": "쉬다",
+      "en": "to rest",
+      "note": "stem 쉬- ends in a vowel → 쉴 거예요"
+    },
+    {
+      "ko": "만나다",
+      "en": "to meet",
+      "note": "vowel stem → 만날 거예요"
+    },
+    {
+      "ko": "여행",
+      "en": "trip, travel",
+      "note": "여행하다 = 'to travel'"
+    },
+    {
+      "ko": "준비하다",
+      "en": "to prepare",
+      "note": "하다 verb → 준비할 거예요"
+    },
+    {
+      "ko": "살다",
+      "en": "to live",
+      "note": "ㄹ-final stem → 살 거예요 (drop original ㄹ)"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Conjugate 가다 into the future polite form.",
+      "a": "갈 거예요 (vowel stem → -ㄹ 거예요)"
+    },
+    {
+      "q": "Conjugate 읽다 (to read) into the future polite form.",
+      "a": "읽을 거예요 (consonant stem → -을 거예요)"
+    },
+    {
+      "q": "Say 'I will rest at home tomorrow.' in Korean.",
+      "a": "내일 집에서 쉴 거예요."
+    },
+    {
+      "q": "Say 'I'm going to study Korean on the weekend.'",
+      "a": "주말에 한국어를 공부할 거예요."
+    },
+    {
+      "q": "Conjugate 살다 (to live) into the future polite form.",
+      "a": "살 거예요 (ㄹ-final: drop ㄹ, add -ㄹ 거예요)"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the correct future form of 먹다 (to eat)?",
+      "options": [
+        "먹 거예요",
+        "먹을 거예요",
+        "먹를 거예요",
+        "머글 거예요"
+      ],
+      "answer": 1,
+      "explain": "먹- ends in a consonant (batchim ㄱ), so add -을 거예요 → 먹을 거예요."
+    },
+    {
+      "q": "Which sentence means 'I will meet a friend tomorrow.'?",
+      "options": [
+        "내일 친구를 만나요.",
+        "어제 친구를 만났어요.",
+        "내일 친구를 만날 거예요.",
+        "친구를 안 만나요."
+      ],
+      "answer": 2,
+      "explain": "만나다 is a vowel stem → 만날 거예요; 내일 ('tomorrow') sets the future context."
+    },
+    {
+      "q": "The verb 살다 (to live) becomes ___ in the future tense.",
+      "options": [
+        "살을 거예요",
+        "살ㄹ 거예요",
+        "살 거예요",
+        "사를 거예요"
+      ],
+      "answer": 2,
+      "explain": "The stem already ends in ㄹ, so it drops and -ㄹ 거예요 attaches: 살 거예요."
+    },
+    {
+      "q": "In natural speech, 거예요 is usually pronounced like:",
+      "options": [
+        "거예요 exactly",
+        "꺼예요",
+        "거에요",
+        "게요"
+      ],
+      "answer": 1,
+      "explain": "The ㄱ tenses to ㄲ in speech, so 거예요 sounds like 꺼예요, though it is written 거예요."
+    }
+  ]
 }
 ];
