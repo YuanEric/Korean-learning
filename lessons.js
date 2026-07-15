@@ -4612,5 +4612,147 @@ const LESSONS = [
       "explain": "The ㄱ tenses to ㄲ in speech, so 거예요 sounds like 꺼예요, though it is written 거예요."
     }
   ]
+},
+{
+  "day": 27,
+  "phase": 2,
+  "title": "Expressing Desire: -고 싶다 (want to)",
+  "focus": "Say what you want to do using -고 싶다, and what someone else wants with -고 싶어하다.",
+  "grammar": {
+    "point": "-고 싶다 (want to do) / -고 싶어하다 (third person wants to do)",
+    "explanation": "Attach -고 싶다 directly to a verb stem (drop 다) to say 'want to do' something. There is no vowel/consonant split — it's always just stem + 고 싶다: 가다 → 가고 싶다 ('want to go'), 먹다 → 먹고 싶다 ('want to eat'), 보다 → 보고 싶다 ('want to see / miss'). In polite speech it becomes 고 싶어요: 자다 → 자고 싶어요 ('I want to sleep'). Negative: 안 먹고 싶어요 or 먹고 싶지 않아요 ('I don't want to eat'). Past: 가고 싶었어요 ('I wanted to go'). IMPORTANT: -고 싶다 is only for the speaker (or the listener in a question). To say what a THIRD person wants, use -고 싶어하다: 동생이 자고 싶어해요 ('My younger sibling wants to sleep'). Also note the object of desire often takes 이/가 instead of 을/를: 물이 마시고 싶어요 is common, though 물을 마시고 싶어요 is also correct.",
+    "examples": [
+      {
+        "ko": "한국에 가고 싶어요.",
+        "en": "I want to go to Korea."
+      },
+      {
+        "ko": "지금 뭐 하고 싶어요?",
+        "en": "What do you want to do now?"
+      },
+      {
+        "ko": "저는 물이 마시고 싶어요.",
+        "en": "I want to drink water."
+      },
+      {
+        "ko": "어제 쉬고 싶었어요.",
+        "en": "I wanted to rest yesterday."
+      },
+      {
+        "ko": "친구가 영화를 보고 싶어해요.",
+        "en": "My friend wants to watch a movie."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "마시다",
+      "en": "to drink",
+      "note": "regular verb; 마시고 싶어요 = want to drink"
+    },
+    {
+      "ko": "배우다",
+      "en": "to learn",
+      "note": "배우고 싶어요 = want to learn"
+    },
+    {
+      "ko": "여행",
+      "en": "travel, trip",
+      "note": "여행하다 = to travel"
+    },
+    {
+      "ko": "영화",
+      "en": "movie, film",
+      "note": "영화를 보다 = to watch a movie"
+    },
+    {
+      "ko": "쉬다",
+      "en": "to rest",
+      "note": "쉬고 싶어요 = want to rest"
+    },
+    {
+      "ko": "자다",
+      "en": "to sleep",
+      "note": "자고 싶어요 = want to sleep"
+    },
+    {
+      "ko": "선물",
+      "en": "gift, present",
+      "note": "선물을 사다 = to buy a gift"
+    },
+    {
+      "ko": "빨리",
+      "en": "quickly, soon",
+      "note": "adverb; 빨리 가고 싶어요 = want to go soon"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Make 'I want to eat': 먹다 → ___",
+      "a": "먹고 싶어요"
+    },
+    {
+      "q": "Make 'I want to learn Korean': 한국어를 배우다 → ___",
+      "a": "한국어를 배우고 싶어요"
+    },
+    {
+      "q": "Say 'I wanted to sleep' (past): 자다 → ___",
+      "a": "자고 싶었어요"
+    },
+    {
+      "q": "Say what a third person wants — 'My friend wants to travel': 친구가 여행하다 → ___",
+      "a": "친구가 여행하고 싶어해요"
+    },
+    {
+      "q": "Negate: 'I don't want to go' (using 안): 가다 → ___",
+      "a": "안 가고 싶어요 (or 가고 싶지 않아요)"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "How do you say 'I want to drink coffee'?",
+      "options": [
+        "커피를 마셔요",
+        "커피를 마시고 싶어요",
+        "커피를 마실 거예요",
+        "커피를 마셨어요"
+      ],
+      "answer": 1,
+      "explain": "-고 싶어요 attaches to the stem 마시- to mean 'want to drink'."
+    },
+    {
+      "q": "Which ending do you use for what a THIRD person wants?",
+      "options": [
+        "-고 싶다",
+        "-고 싶어요",
+        "-고 싶어하다",
+        "-고 있다"
+      ],
+      "answer": 2,
+      "explain": "-고 싶어하다 is used for third-person desire; -고 싶다 is only for the speaker/listener."
+    },
+    {
+      "q": "What is the correct past form of 가고 싶다?",
+      "options": [
+        "가고 싶어요",
+        "가고 싶을 거예요",
+        "가고 싶었어요",
+        "가고 싶어해요"
+      ],
+      "answer": 2,
+      "explain": "싶다 is an adjective-type predicate, so its past is 싶었어요 → 가고 싶었어요 ('I wanted to go')."
+    },
+    {
+      "q": "Which sentence correctly says 'What do you want to do?'",
+      "options": [
+        "뭐 해요?",
+        "뭐 하고 싶어요?",
+        "뭐 할 거예요?",
+        "뭐 하고 있어요?"
+      ],
+      "answer": 1,
+      "explain": "뭐 하고 싶어요? uses -고 싶어요 to ask about the listener's desire."
+    }
+  ]
 }
 ];
