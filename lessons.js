@@ -4756,4 +4756,143 @@ const LESSONS = [
   ]
 },
   {"day":28,"phase":2,"title":"Polite Requests & Commands: -(으)세요","focus":"Ask someone politely to do something (and give gentle commands) with -(으)세요; recognize a few honorific verbs.","grammar":{"point":"-(으)세요 (polite request/command) and its honorific meaning","explanation":"-(으)세요 attaches to a verb stem to make a polite request or gentle command — 'please do ~'. Choose the form by the stem's final sound: if the stem ends in a VOWEL, add -세요 (가다 → 가세요 'please go', 오다 → 오세요 'please come'); if it ends in a CONSONANT, add -으세요 (읽다 → 읽으세요 'please read', 앉다 → 앉으세요 'please sit'). ㄹ-stems drop the ㄹ before -세요 (열다 → 여세요 'please open'). -(으)세요 is also the honorific present tense: because it contains the honorary marker -(으)시-, 할아버지가 신문을 읽으세요 means 'Grandfather reads the newspaper (honorific)'. A few common verbs have special honorific/irregular forms you must memorize: 먹다/마시다 → 드세요 or 잡수세요 ('please eat'), 자다 → 주무세요 ('please sleep'), 있다 → 계세요 ('please stay/be there'), 말하다 → 말씀하세요 ('please speak'). To say 'please don't do ~', use -지 마세요: 가지 마세요 ('please don't go'), 걱정하지 마세요 ('don't worry').","examples":[{"ko":"여기 앉으세요.","en":"Please sit here."},{"ko":"천천히 말씀하세요.","en":"Please speak slowly."},{"ko":"많이 드세요.","en":"Please eat a lot. (enjoy your meal)"},{"ko":"안녕히 주무세요.","en":"Sleep well. (good night)"},{"ko":"걱정하지 마세요.","en":"Please don't worry."}]},"vocab":[{"ko":"앉다","en":"to sit","note":"consonant stem → 앉으세요 = please sit"},{"ko":"기다리다","en":"to wait","note":"vowel stem → 기다리세요 = please wait"},{"ko":"들어오다","en":"to come in, enter","note":"들어오세요 = please come in"},{"ko":"드시다","en":"to eat (honorific)","note":"honorific of 먹다/마시다; 드세요 = please eat"},{"ko":"주무시다","en":"to sleep (honorific)","note":"honorific of 자다; 주무세요 = please sleep"},{"ko":"천천히","en":"slowly","note":"adverb; opposite of 빨리"},{"ko":"조심하다","en":"to be careful","note":"조심하세요 = please be careful / take care"},{"ko":"말씀","en":"words, speech (honorific)","note":"honorific noun; 말씀하세요 = please speak"}],"exercises":[{"q":"Make a polite request from 오다 (to come): ___","a":"오세요 (vowel stem → -세요)"},{"q":"Make a polite request from 읽다 (to read): ___","a":"읽으세요 (consonant stem → -으세요)"},{"q":"Politely tell someone to open (열다) — remember the ㄹ rule: ___","a":"여세요 (ㄹ drops before -세요)"},{"q":"Use the honorific 'please eat' form: ___","a":"드세요 (from 드시다; 잡수세요 also acceptable)"},{"q":"Say 'please don't go' using -지 마세요: 가다 → ___","a":"가지 마세요"}],"quiz":[{"q":"Which is the correct polite request for 앉다 (to sit)?","options":["앉세요","앉으세요","앉아요","앉을 거예요"],"answer":1,"explain":"앉- ends in a consonant, so it takes -으세요 → 앉으세요."},{"q":"How do you politely say 'please come'? (오다)","options":["오으세요","오세요","와세요","오지 마세요"],"answer":1,"explain":"오- ends in a vowel, so it takes -세요 → 오세요. (오지 마세요 would mean 'please don't come'.)"},{"q":"Which is the honorific way to tell an elder 'please eat a lot'?","options":["많이 먹으세요","많이 드세요","많이 먹어요","많이 먹고 싶어요"],"answer":1,"explain":"먹다 has the special honorific 드시다 → 드세요, more respectful than 먹으세요."},{"q":"How do you say 'please don't worry'? (걱정하다)","options":["걱정하세요","걱정하지 마세요","걱정 안 하세요","걱정할 거예요"],"answer":1,"explain":"Negative commands use -지 마세요 → 걱정하지 마세요."},{"q":"For a verb stem ending in ㄹ like 열다 (to open), the polite request is:","options":["열으세요","열세요","여세요","열어세요"],"answer":2,"explain":"ㄹ drops before -세요, giving 여세요."}]}
+,
+{
+  "day": 29,
+  "phase": 2,
+  "title": "Prohibitions & Negative Requests: -지 마세요",
+  "focus": "Tell someone politely NOT to do something with -지 마세요, and contrast it with the polite request -(으)세요 from Day 28.",
+  "grammar": {
+    "point": "-지 말다 → -지 마세요 (please don't ~)",
+    "explanation": "To ask someone politely NOT to do something, attach -지 마세요 to the plain verb stem. It is built from -지 말다 ('to not do'): the stem + -지, then 말다 conjugated politely as 마세요. Unlike -(으)세요, there is NO vowel/consonant split — every verb takes the same -지 마세요, because -지 attaches directly to the bare stem. So 가다 → 가지 마세요 ('please don't go'), 먹다 → 먹지 마세요 ('please don't eat'), 걱정하다 → 걱정하지 마세요 ('please don't worry'). This pairs directly with Day 28's -(으)세요: 앉으세요 ('please sit') vs 앉지 마세요 ('please don't sit'). A more casual/blunt command form is just -지 마 (여기 앉지 마 = 'don't sit here'), used with close friends. The noun 담배 with 피우다 ('to smoke') gives the very common sign 담배를 피우지 마세요.",
+    "examples": [
+      {
+        "ko": "여기에서 사진을 찍지 마세요.",
+        "en": "Please don't take photos here."
+      },
+      {
+        "ko": "수업 시간에 자지 마세요.",
+        "en": "Please don't sleep during class."
+      },
+      {
+        "ko": "너무 걱정하지 마세요.",
+        "en": "Please don't worry too much."
+      },
+      {
+        "ko": "위험하니까 만지지 마세요.",
+        "en": "It's dangerous, so please don't touch it."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "찍다",
+      "en": "to take (a photo)",
+      "note": "사진을 찍다 = take a photo"
+    },
+    {
+      "ko": "피우다",
+      "en": "to smoke",
+      "note": "담배를 피우다 = smoke a cigarette"
+    },
+    {
+      "ko": "만지다",
+      "en": "to touch",
+      "note": ""
+    },
+    {
+      "ko": "걱정하다",
+      "en": "to worry",
+      "note": "걱정하지 마세요 = don't worry"
+    },
+    {
+      "ko": "위험하다",
+      "en": "to be dangerous",
+      "note": "위험해요 = it's dangerous"
+    },
+    {
+      "ko": "조용히",
+      "en": "quietly",
+      "note": "adverb; 조용히 하세요 = be quiet"
+    },
+    {
+      "ko": "금지",
+      "en": "prohibition / ban",
+      "note": "출입 금지 = no entry (on signs)"
+    },
+    {
+      "ko": "버리다",
+      "en": "to throw away",
+      "note": "쓰레기를 버리다 = throw away trash"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Turn '가다' into a polite negative request (please don't go).",
+      "a": "가지 마세요"
+    },
+    {
+      "q": "Make a polite request NOT to smoke here: '여기에서 담배를 ___'.",
+      "a": "피우지 마세요"
+    },
+    {
+      "q": "Say 'Please don't worry' using 걱정하다.",
+      "a": "걱정하지 마세요"
+    },
+    {
+      "q": "Contrast: give the polite request 'please sit' AND 'please don't sit' from 앉다.",
+      "a": "앉으세요 / 앉지 마세요"
+    },
+    {
+      "q": "Translate: 'Please don't throw trash away here.' (쓰레기, 버리다, 여기에)",
+      "a": "여기에 쓰레기를 버리지 마세요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the correct polite way to say 'please don't eat'?",
+      "options": [
+        "먹으세요",
+        "먹지 마세요",
+        "먹고 싶어요",
+        "먹어요"
+      ],
+      "answer": 1,
+      "explain": "-지 마세요 attaches to the bare stem 먹- to form a polite prohibition."
+    },
+    {
+      "q": "Which statement about -지 마세요 is TRUE?",
+      "options": [
+        "It changes form based on whether the stem ends in a vowel or consonant",
+        "It means 'want to do'",
+        "It attaches the same way to every verb stem",
+        "It is only used for honorific subjects"
+      ],
+      "answer": 2,
+      "explain": "Unlike -(으)세요, -지 마세요 attaches identically to all stems with no vowel/consonant split."
+    },
+    {
+      "q": "'여기에서 사진을 찍지 마세요' means:",
+      "options": [
+        "Please take a photo here",
+        "Please don't take photos here",
+        "I want to take a photo here",
+        "Do you take photos here?"
+      ],
+      "answer": 1,
+      "explain": "찍다 (take a photo) + -지 마세요 = please don't take photos."
+    },
+    {
+      "q": "Choose the polite request (NOT a prohibition) form of 기다리다 ('to wait').",
+      "options": [
+        "기다리지 마세요",
+        "기다리고 싶어요",
+        "기다리세요",
+        "기다려요"
+      ],
+      "answer": 2,
+      "explain": "-(으)세요 on a vowel-ending stem gives 기다리세요 = please wait; option 0 is the prohibition."
+    }
+  ]
+}
 ];
