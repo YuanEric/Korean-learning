@@ -4894,5 +4894,143 @@ const LESSONS = [
       "explain": "-(으)세요 on a vowel-ending stem gives 기다리세요 = please wait; option 0 is the prohibition."
     }
   ]
+},
+{
+  "day": 30,
+  "phase": 2,
+  "title": "Going to Do Something: -(으)러 가다/오다",
+  "focus": "Express the PURPOSE of movement — 'go/come in order to do something' — using -(으)러 with 가다, 오다, and 다니다.",
+  "grammar": {
+    "point": "-(으)러 가다/오다 (go/come (in order) to ~)",
+    "explanation": "To say you go or come somewhere in order to DO something, attach -(으)러 to the action-verb stem and follow it with a movement verb: 가다 (go), 오다 (come), or 다니다 (attend/commute regularly). The -(으)러 works like -(으)세요 for the vowel/consonant split: a stem ending in a VOWEL takes -러 (보다 → 보러), a stem ending in a CONSONANT takes -으러 (먹다 → 먹으러), and the ㄹ-final stem drops nothing special but just takes -러 (놀다 → 놀러). The purpose verb comes FIRST, the movement verb LAST: 밥을 먹으러 식당에 가요 = 'I go to the restaurant to eat.' Note the place is marked with 에 (destination). Only 가다/오다/다니다-type movement verbs can follow -(으)러; you cannot use it with non-movement verbs. Compare with -고 싶다 (want to): 사러 가요 = 'I go to buy' vs 사고 싶어요 = 'I want to buy.'",
+    "examples": [
+      {
+        "ko": "친구를 만나러 카페에 가요.",
+        "en": "I'm going to the cafe to meet a friend."
+      },
+      {
+        "ko": "책을 사러 서점에 갔어요.",
+        "en": "I went to the bookstore to buy a book."
+      },
+      {
+        "ko": "한국어를 배우러 학교에 다녀요.",
+        "en": "I attend school to learn Korean."
+      },
+      {
+        "ko": "우리 집에 놀러 오세요.",
+        "en": "Please come over to my place to hang out."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "ko": "배우다",
+      "en": "to learn",
+      "note": "vowel stem → 배우러"
+    },
+    {
+      "ko": "만나다",
+      "en": "to meet",
+      "note": "만나러 = to go meet"
+    },
+    {
+      "ko": "다니다",
+      "en": "to attend / commute regularly",
+      "note": "학교에 다니다 = go to school"
+    },
+    {
+      "ko": "서점",
+      "en": "bookstore",
+      "note": "책을 사러 가는 곳"
+    },
+    {
+      "ko": "식당",
+      "en": "restaurant",
+      "note": "밥을 먹으러 가는 곳"
+    },
+    {
+      "ko": "놀다",
+      "en": "to play / hang out",
+      "note": "ㄹ stem → 놀러"
+    },
+    {
+      "ko": "빌리다",
+      "en": "to borrow / rent",
+      "note": "책을 빌리러 도서관에 가요"
+    },
+    {
+      "ko": "도서관",
+      "en": "library",
+      "note": "책을 빌리러 가는 곳"
+    }
+  ],
+  "exercises": [
+    {
+      "q": "Turn '먹다' into the purpose form (in order to eat).",
+      "a": "먹으러"
+    },
+    {
+      "q": "Turn '보다' into the purpose form (in order to watch/see).",
+      "a": "보러"
+    },
+    {
+      "q": "Complete: '친구를 ___ 카페에 가요.' (meet a friend)",
+      "a": "만나러"
+    },
+    {
+      "q": "Translate: 'I went to the library to borrow a book.' (책, 빌리다, 도서관에, 가다-past)",
+      "a": "책을 빌리러 도서관에 갔어요."
+    },
+    {
+      "q": "Say 'Please come over to hang out.' using 놀다 + 오세요.",
+      "a": "놀러 오세요."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which stem type takes -러 (not -으러)?",
+      "options": [
+        "A stem ending in a consonant",
+        "A stem ending in a vowel",
+        "Only 하다 verbs",
+        "Only past-tense stems"
+      ],
+      "answer": 1,
+      "explain": "Vowel-ending stems take -러 (보러), consonant-ending stems take -으러 (먹으러)."
+    },
+    {
+      "q": "'책을 사러 서점에 갔어요' means:",
+      "options": [
+        "I want to buy a book at the bookstore",
+        "I sold a book at the bookstore",
+        "I went to the bookstore to buy a book",
+        "I am reading a book at the bookstore"
+      ],
+      "answer": 2,
+      "explain": "사다 → 사러 (to buy) + 갔어요 (went) = went in order to buy a book."
+    },
+    {
+      "q": "Which verb can CORRECTLY follow -(으)러?",
+      "options": [
+        "먹다 (to eat)",
+        "가다 (to go)",
+        "자다 (to sleep)",
+        "읽다 (to read)"
+      ],
+      "answer": 1,
+      "explain": "-(으)러 must be followed by a movement verb like 가다/오다/다니다; the others are not movement verbs."
+    },
+    {
+      "q": "Correctly convert '먹다' + purpose + '가다' (present) = 'go to eat':",
+      "options": [
+        "먹으러 가요",
+        "먹러 가요",
+        "먹고 가요",
+        "먹으세요"
+      ],
+      "answer": 0,
+      "explain": "Consonant stem 먹- takes -으러 → 먹으러, then 가요."
+    }
+  ]
 }
 ];
